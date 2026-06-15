@@ -1,5 +1,5 @@
-CXX      := g++                 
-CXXFLAGS := -Wall -Wextra -Werror
+CXX      := g++
+CXXFLAGS := -Wall -Wextra -Werror -std=c++20 -O3 -mtune=native -flto -fomit-frame-pointer -DNDEBUG -pipe
 LDFLAGS  := -lm                 
 BUILD    := ./build
 OBJ_DIR  := $(BUILD)/objects
@@ -8,7 +8,7 @@ TARGET   := app
 INCLUDE  := -Iinclude/
 SRC      := $(wildcard src/*.cpp) 
 
-OBJECTS := $(SRC:%.cpp=$(OBJ_DIR)/%.o)
+OBJECTS := $(patsubst src/%.cpp,$(OBJ_DIR)/%.o,$(SRC))
 
 all: build $(APP_DIR)/$(TARGET)
 

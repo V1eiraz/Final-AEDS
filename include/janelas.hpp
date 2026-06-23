@@ -6,7 +6,7 @@
 
 struct EntradaRanking {
     uint32_t id;
-    uint32_t freq;
+    float freq;
 };
 
 class Janelas {
@@ -29,5 +29,5 @@ public:
     std::vector<EntradaRanking> rankingGlobal(uint32_t totalPalavras) const; 
 
     // Top 100 por C(p)
-    std::vector<EntradaRanking> rankingEmegentes(uint32_t totalPalavras, uint32_t minFreq = 5) const;
+    std::vector<EntradaRanking> rankingEmergentes(uint32_t totalPalavras, uint32_t minFreq = 5) const;
 };

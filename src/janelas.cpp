@@ -43,7 +43,7 @@ std::vector<EntradaRanking> Janelas::rankingGlobal(uint32_t totalPalavras) const
     // O topo é sempre o MENOR dos top-100 vistos até agora.
     // Se a palavra atual é maior que o topo, troca — O(N log K).
     auto cmp = [](const EntradaRanking& a, const EntradaRanking& b){
-        return a.valor > b.valor;
+        return a.freq > b.freq;
     };
     std::priority_queue<EntradaRanking, std::vector<EntradaRanking>, decltype(cmp)> heap(cmp);
 
@@ -52,10 +52,10 @@ std::vector<EntradaRanking> Janelas::rankingGlobal(uint32_t totalPalavras) const
         if (f == 0) continue;
 
         if (heap.size() < TAMANHO_RANKING) {
-            heap.push({f, id});
-        } else if (f > heap.top().valor) {
+            heap.push({id, f});
+        } else if (f > heap.top().freq) {
             heap.pop();
-            heap.push({f, id});
+            heap.push({id, f});
         }
     }
 
@@ -63,17 +63,17 @@ std::vector<EntradaRanking> Janelas::rankingGlobal(uint32_t totalPalavras) const
     resultado.reserve(heap.size());
     while (!heap.empty()) { resultado.push_back(heap.top()); heap.pop(); }
     std::sort(resultado.begin(), resultado.end(), [](const EntradaRanking& a, const EntradaRanking& b){
-        return a.valor > b.valor;
+        return a.freq > b.freq;
     });
     return resultado;
 }
 
-std::vector<EntradaRanking> Janelas::rankingEmergentes(uint32_t totalPalavras, uint32_t minFreq) const {
+std::vector<EntradaRanking> Janelas::rankingEmergentes(uint32_t totalPalavras, uint32_t minFreq)    const {
     // C(p) = (FJ5 - FJ1) / (FJ1 + 1)
     // +1 no denominador evita divisão por zero quando a palavra não existia em J1
     // minFreq filtra palavras raras que distorceriam o ranking
     auto cmp = [](const EntradaRanking& a, const EntradaRanking& b){
-        return a.valor > b.valor;
+        return a.freq > b.freq;
     };
     std::priority_queue<EntradaRanking, std::vector<EntradaRanking>, decltype(cmp)> heap(cmp);
 
@@ -85,10 +85,10 @@ std::vector<EntradaRanking> Janelas::rankingEmergentes(uint32_t totalPalavras, u
         float cp  = (fj5 - fj1) / (fj1 + 1.0f);
 
         if (heap.size() < TAMANHO_RANKING) {
-            heap.push({cp, id});
-        } else if (cp > heap.top().valor) {
+            heap.push({id, cp});
+        } else if (cp > heap.top().freq) {
             heap.pop();
-            heap.push({cp, id});
+            heap.push({id, cp});
         }
     }
 
@@ -96,7 +96,7 @@ std::vector<EntradaRanking> Janelas::rankingEmergentes(uint32_t totalPalavras, u
     resultado.reserve(heap.size());
     while (!heap.empty()) { resultado.push_back(heap.top()); heap.pop(); }
     std::sort(resultado.begin(), resultado.end(), [](const EntradaRanking& a, const EntradaRanking& b){
-        return a.valor > b.valor;
+        return a.freq > b.freq;
     });
     return resultado;
 }

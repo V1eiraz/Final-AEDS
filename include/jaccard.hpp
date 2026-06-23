@@ -6,25 +6,23 @@
 #include <string>
 #include <cstdint>
 
-// Vai representar as manchetes similares
-struct Similar{
-    int lineNumber;     //indice da linha no CSV 
-    std::string texto;  //manchete original
-    float jaccard;      // similaridade
+struct Similar {
+    int lineNumber;
+    std::string texto;
+    float jaccard;
 };
 
-class Jaccard{
+class Jaccard {
 public:
-    // Calcula o indice de Jaccard entre dois vetores de IDs ordenados
-    // os vetores ja vem ordenados do Processador
+    // Calcula o índice de Jaccard entre dois vetores de IDs ordenados
     static float calcular(const std::vector<uint32_t>& A,
                           const std::vector<uint32_t>& B);
 
-    //Dado o índice de uma manchete alvo, busca as top 10 similares
-    // vai reler o CSV duas vezes< uma pra pegar a alvo, outra pra comparar
+    // Recebe os tokens JÁ PROCESSADOS da manchete de consulta
+    // e busca as top 10 similares no CSV
     std::vector<Similar> buscarSimilares(const std::string& caminhoCSV,
-                                        int indiceBusca,
-                                        Dicionario& dicionario,
-                                        Processador& processador);
-
+                                         const std::vector<uint32_t>& tokensAlvo,
+                                         const std::string& textoAlvo,
+                                         Dicionario& dicionario,
+                                         Processador& processador);
 };

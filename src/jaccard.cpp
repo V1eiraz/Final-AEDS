@@ -4,7 +4,8 @@
 #include <algorithm>
 #include <queue>
 
-float Jaccard::calcular(const std::vector<uint32_t>& A, const std::vector<uint32_t>& B) {
+float Jaccard::calcular(const std::vector<uint32_t>& A,
+                        const std::vector<uint32_t>& B) {
     if (A.empty() && B.empty()) return 1.0f;
     if (A.empty() || B.empty()) return 0.0f;
 
@@ -12,9 +13,12 @@ float Jaccard::calcular(const std::vector<uint32_t>& A, const std::vector<uint32
     int i = 0, j = 0;
 
     while (i < (int)A.size() && j < (int)B.size()) {
-        if      (A[i] == B[j]) { intersecao++; i++; j++; }
-        else if (A[i] <  B[j]) { i++; }
-        else                   { j++; }
+        if      (A[i] == B[j]) {
+            intersecao++; i++; j++; 
+        }else if (A[i] <  B[j]) {
+            i++; 
+        }else{
+            j++; }
     }
 
     int uniao = (int)A.size() + (int)B.size() - intersecao;
@@ -22,62 +26,44 @@ float Jaccard::calcular(const std::vector<uint32_t>& A, const std::vector<uint32
 }
 
 std::vector<Similar> Jaccard::buscarSimilares(const std::string& caminhoCSV,
-                                               int indiceBusca,
+                                               const std::vector<uint32_t>& tokensAlvo,
+                                               const std::string& textoAlvo,
                                                Dicionario& dicionario,
                                                Processador& processador) {
-    // PASSO 1: pegar os tokens da manchete alvo
-    std::vector<uint32_t> tokensAlvo;
-    std::string textoAlvo;
+    using Par = std::pair<float, Similar>;
 
-    int n = 0;
-    Arquivo::ler_csv(caminhoCSV, [&](std::string&& linha) {
-        if (n == indiceBusca) {
-            textoAlvo = linha;
-            processador.processar(linha, dicionario, tokensAlvo);
-        }
-        n++;
-    });
-
-    // PASSO 2: min-heap de tamanho fixo MAX_RESULTADOS_SIMILARES
-    // O heap guarda os MELHORES scores — o topo é sempre o PIOR dos melhores
-    // Quando o heap está cheio e um novo score é maior que o topo,
-    // descarta o topo e insere o novo
-    using Par = std::pair<float, Similar>; // (jaccard, Similar)
-
-    // Comparador: min-heap pelo score (menor score no topo)
+    // Min-heap: topo é sempre o PIOR dos top 10
     auto cmp = [](const Par& a, const Par& b) {
-        return a.first > b.first; // inverte para min-heap
+        return a.first > b.first;
     };
     std::priority_queue<Par, std::vector<Par>, decltype(cmp)> heap(cmp);
 
     std::vector<uint32_t> tokensLinha;
-    int m = 0;
+    int n = 0;
 
     Arquivo::ler_csv(caminhoCSV, [&](std::string&& linha) {
-        if (m != indiceBusca) {
+        // Ignora se for exatamente igual à manchete de consulta
+        if (linha != textoAlvo) {
             tokensLinha.clear();
             processador.processar(linha, dicionario, tokensLinha);
 
             float score = calcular(tokensAlvo, tokensLinha);
 
             if (score >= LIMIAR_JACCARD) {
-                Similar s{m, linha, score};
+                Similar s{n, linha, score};
 
                 if (heap.size() < MAX_RESULTADOS_SIMILARES) {
-                    // Heap ainda não está cheio, só insere
                     heap.push({score, s});
                 } else if (score > heap.top().first) {
-                    // Score melhor que o pior dos top 10: substitui
                     heap.pop();
                     heap.push({score, s});
                 }
-                // Se score <= topo do heap, descarta — não entra no top 10
             }
         }
-        m++;
+        n++;
     });
 
-    // Extrai os resultados do heap em ordem decrescente
+    // Extrai em ordem decrescente
     std::vector<Similar> resultado;
     resultado.reserve(heap.size());
 
@@ -86,8 +72,6 @@ std::vector<Similar> Jaccard::buscarSimilares(const std::string& caminhoCSV,
         heap.pop();
     }
 
-    // O heap extrai do menor para o maior, então inverte
     std::reverse(resultado.begin(), resultado.end());
-
     return resultado;
 }

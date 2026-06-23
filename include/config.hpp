@@ -2,7 +2,7 @@
 
 #include <cstdint>
 
-inline constexpr float LIMIAR_JACCARD = 0.0f;
+inline constexpr float LIMIAR_JACCARD = 0.1f;
 inline constexpr uint32_t MAX_RESULTADOS_SIMILARES = 10;
 inline constexpr int TOTAL_JANELAS = 5;
 inline constexpr uint32_t TAMANHO_RANKING = 100;

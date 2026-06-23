@@ -1,4 +1,6 @@
 #include "janelas.hpp"
+#include <queue>
+#include <algorithm>
 
 void Janelas::addManchete(int lineNumber, int totalLines,
                           const std::vector<uint32_t>& tokens) {
@@ -26,4 +28,75 @@ void Janelas::addManchete(int lineNumber, int totalLines,
 uint32_t Janelas::getFreq(int janela, uint32_t id) const {
     if (id >= freq[janela].size()) return 0;
     return freq[janela][id];
+}
+
+uint32_t Janelas::freqGlobal(uint32_t id) const {
+    uint32_t total = 0;
+    for (int j = 0; j < TOTAL_JANELAS; j++) {
+        if (id < freq[j].size()) total += freq[j][id];
+    }
+    return total;
+}
+
+std::vector<EntradaRanking> Janelas::rankingGlobal(uint32_t totalPalavras) const {
+    // Min-heap de tamanho K=100.
+    // O topo é sempre o MENOR dos top-100 vistos até agora.
+    // Se a palavra atual é maior que o topo, troca — O(N log K).
+    auto cmp = [](const EntradaRanking& a, const EntradaRanking& b){
+        return a.valor > b.valor;
+    };
+    std::priority_queue<EntradaRanking, std::vector<EntradaRanking>, decltype(cmp)> heap(cmp);
+
+    for (uint32_t id = 0; id < totalPalavras; id++) {
+        float f = static_cast<float>(freqGlobal(id));
+        if (f == 0) continue;
+
+        if (heap.size() < TAMANHO_RANKING) {
+            heap.push({f, id});
+        } else if (f > heap.top().valor) {
+            heap.pop();
+            heap.push({f, id});
+        }
+    }
+
+    std::vector<EntradaRanking> resultado;
+    resultado.reserve(heap.size());
+    while (!heap.empty()) { resultado.push_back(heap.top()); heap.pop(); }
+    std::sort(resultado.begin(), resultado.end(), [](const EntradaRanking& a, const EntradaRanking& b){
+        return a.valor > b.valor;
+    });
+    return resultado;
+}
+
+std::vector<EntradaRanking> Janelas::rankingEmergentes(uint32_t totalPalavras, uint32_t minFreq) const {
+    // C(p) = (FJ5 - FJ1) / (FJ1 + 1)
+    // +1 no denominador evita divisão por zero quando a palavra não existia em J1
+    // minFreq filtra palavras raras que distorceriam o ranking
+    auto cmp = [](const EntradaRanking& a, const EntradaRanking& b){
+        return a.valor > b.valor;
+    };
+    std::priority_queue<EntradaRanking, std::vector<EntradaRanking>, decltype(cmp)> heap(cmp);
+
+    for (uint32_t id = 0; id < totalPalavras; id++) {
+        if (freqGlobal(id) < minFreq) continue;
+
+        float fj1 = static_cast<float>(getFreq(0, id));
+        float fj5 = static_cast<float>(getFreq(TOTAL_JANELAS - 1, id));
+        float cp  = (fj5 - fj1) / (fj1 + 1.0f);
+
+        if (heap.size() < TAMANHO_RANKING) {
+            heap.push({cp, id});
+        } else if (cp > heap.top().valor) {
+            heap.pop();
+            heap.push({cp, id});
+        }
+    }
+
+    std::vector<EntradaRanking> resultado;
+    resultado.reserve(heap.size());
+    while (!heap.empty()) { resultado.push_back(heap.top()); heap.pop(); }
+    std::sort(resultado.begin(), resultado.end(), [](const EntradaRanking& a, const EntradaRanking& b){
+        return a.valor > b.valor;
+    });
+    return resultado;
 }

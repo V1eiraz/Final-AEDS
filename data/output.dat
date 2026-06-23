@@ -204,153 +204,1504 @@
 
 === CONSULTAS ===
 
-Manchete Original: police raid home amid health union fraud probe
+Manchete Original: water wont be moved without studies gallop
 Top 10 similares:
-1 - police raid home in boy in bag probe [Jaccard = 0.5000]
-2 - police probe home bashing [Jaccard = 0.3333]
-3 - police probe alleged fraud at vic uni [Jaccard = 0.3333]
-4 - police raid milat home [Jaccard = 0.3333]
-5 - police probe home bashing [Jaccard = 0.3333]
-6 - police probe home invasion [Jaccard = 0.3333]
-7 - police raid on sheens home [Jaccard = 0.3333]
-8 - police probe attempted ram raid [Jaccard = 0.3333]
-9 - police probe failed ram raid [Jaccard = 0.3333]
-10 - police raid collins home [Jaccard = 0.3333]
+1 - gallop wont say beazley win is his cup of tea [Jaccard = 0.2857]
+2 - water wont run out sa pledge [Jaccard = 0.2857]
+3 - gallop defends water consultation [Jaccard = 0.2500]
+4 - water deal struck without vic [Jaccard = 0.2500]
+5 - pm wont seize water control [Jaccard = 0.2500]
+6 - water tax wont be itemised on bills [Jaccard = 0.2500]
+7 - darling water wont reach sa [Jaccard = 0.2500]
+8 - intervention wont work without ama [Jaccard = 0.2500]
+9 - guantanamo prisoners wont be moved to us [Jaccard = 0.2500]
+10 - gallop pleased as wa reins in water use [Jaccard = 0.2500]
 Palavras Emergentes presentes nessas manchetes:
   (nenhuma)
 
-Manchete Original: rudd hosts press conference
+Manchete Original: boost planned for central vic tourism
 Top 10 similares:
-1 - kevin rudd makes press conference [Jaccard = 0.5000]
-2 - full audio of press conference of pm kevin rudd [Jaccard = 0.4286]
-3 - press conference kevin rudd peter garrett and [Jaccard = 0.4286]
-4 - metgasgo press conference [Jaccard = 0.4000]
-5 - asada press conference [Jaccard = 0.4000]
-6 - rudd to address un conference [Jaccard = 0.4000]
-7 - pm and cmo friday press conference [Jaccard = 0.4000]
-8 - awkward press conference [Jaccard = 0.4000]
-9 - nz pm walks out of press conference [Jaccard = 0.4000]
-10 - warnes press conference [Jaccard = 0.4000]
+1 - water boost planned for central coast [Jaccard = 0.5000]
+2 - road upgrades planned to boost tourism [Jaccard = 0.5000]
+3 - g20 tourism boost [Jaccard = 0.5000]
+4 - water supply boost planned for central vic [Jaccard = 0.5000]
+5 - central qld tourism gets easter boost [Jaccard = 0.5000]
+6 - sa tourism boost [Jaccard = 0.5000]
+7 - tourism group backs planned infrastructure boost [Jaccard = 0.4286]
+8 - boost for indigenous tourism [Jaccard = 0.4000]
+9 - far north qld tourism to get 125m boost [Jaccard = 0.4000]
+10 - tourism boost for rum distillery [Jaccard = 0.4000]
 Palavras Emergentes presentes nessas manchetes:
   (nenhuma)
 
-Manchete Original: stabbing victims family unhappy with not guilty verdict
+Manchete Original: omalley storms into loch lomond contention
 Top 10 similares:
-1 - victims family angry with manslaughter verdict [Jaccard = 0.4444]
-2 - murder victims family happy with verdict [Jaccard = 0.4444]
-3 - family welcomes guilty verdict in muswellbrook [Jaccard = 0.3333]
-4 - halvagis family relieved at guilty verdict [Jaccard = 0.3333]
-5 - falconio family relieved at guilty verdict [Jaccard = 0.3333]
-6 - church abuse victims unhappy with new laws [Jaccard = 0.3000]
-7 - shareholder unhappy with cooper family approach [Jaccard = 0.3000]
-8 - crime victims unhappy with justice system [Jaccard = 0.3000]
-9 - victims family express anger over stabbing [Jaccard = 0.3000]
-10 - family unhappy with finding over bar death [Jaccard = 0.3000]
+1 - protesta storms into cup contention [Jaccard = 0.4286]
+2 - moseley storms into contention [Jaccard = 0.4286]
+3 - omalley in contention in ireland [Jaccard = 0.2857]
+4 - webb fires into contention [Jaccard = 0.2500]
+5 - webb leaps into contention [Jaccard = 0.2500]
+6 - federer storms into quarters [Jaccard = 0.2500]
+7 - loch ard arch crashes into sea [Jaccard = 0.2500]
+8 - hensby omalley in contention in sweden [Jaccard = 0.2500]
+9 - omalley in contention at asian open [Jaccard = 0.2500]
+10 - pittman storms into final [Jaccard = 0.2500]
 Palavras Emergentes presentes nessas manchetes:
   (nenhuma)
 
-Manchete Original: vintage time how the weather shapes the wines
+Manchete Original: man sends police on car chase
 Top 10 similares:
-1 - wa vintage marred by weather [Jaccard = 0.3333]
-2 - wet weather hits nsw wines [Jaccard = 0.3333]
-3 - top vintage produces outstanding wines [Jaccard = 0.2857]
-4 - its time to let go of the weather girl stereotype [Jaccard = 0.2857]
-5 - bzzzzt 5.55 am and its time to check the weather [Jaccard = 0.2857]
-6 - dry weather brings forward vintage [Jaccard = 0.2857]
-7 - weather to impact on grape vintage [Jaccard = 0.2857]
-8 - vintage wine season weather barossa [Jaccard = 0.2500]
-9 - vintage 2016 margaret river mixed weather [Jaccard = 0.2500]
-10 - great wines expected from 2012 vintage [Jaccard = 0.2500]
+1 - fbs police chase [Jaccard = 0.6667]
+2 - police car hit in chase [Jaccard = 0.6667]
+3 - two die in police chase [Jaccard = 0.6667]
+4 - police chase driver was a 14yo boy [Jaccard = 0.5000]
+5 - police use stun gun in car chase [Jaccard = 0.5000]
+6 - police use taser in car chase [Jaccard = 0.5000]
+7 - perth police chase [Jaccard = 0.5000]
+8 - man jailed for police chase [Jaccard = 0.5000]
+9 - act police chase taser [Jaccard = 0.5000]
+10 - 15yo in stolen car police chase [Jaccard = 0.5000]
 Palavras Emergentes presentes nessas manchetes:
   (nenhuma)
 
-Manchete Original: more teachers are at danger from students union
+Manchete Original: us australia need to compromise on free trade deal
 Top 10 similares:
-1 - pay more attention to education teachers union [Jaccard = 0.3750]
-2 - union demands more exemptions from ban [Jaccard = 0.3750]
-3 - hunter teachers catering for more esl students [Jaccard = 0.3750]
-4 - more danger to residents from ki bushfires [Jaccard = 0.3750]
-5 - teachers union warns of more strikes [Jaccard = 0.3750]
-6 - more act students withdrawing from naplan [Jaccard = 0.3750]
-7 - union wary of students reviewing teachers [Jaccard = 0.3750]
-8 - more language teachers needed union [Jaccard = 0.3750]
-9 - teachers union threatens more industrial woes [Jaccard = 0.3333]
-10 - fijian teachers barred from expelling students [Jaccard = 0.3333]
-Palavras Emergentes presentes nessas manchetes:
-  naplan [C(p) = 86.0000]
-
-Manchete Original: water buyback
-Top 10 similares:
-1 - nsw water buyback 0804 [Jaccard = 1.0000]
-2 - nsw water buyback [Jaccard = 1.0000]
-3 - buyback water not for sa [Jaccard = 1.0000]
-4 - queensland water buyback [Jaccard = 0.6667]
-5 - rural water buyback [Jaccard = 0.6667]
-6 - new water buyback in southern nsw [Jaccard = 0.6667]
-7 - new water buyback southern nsw [Jaccard = 0.6667]
-8 - no go for wakool water buyback [Jaccard = 0.6667]
-9 - feedback sought on water buyback [Jaccard = 0.5000]
-10 - speed up water licence buyback qcc [Jaccard = 0.5000]
+1 - australia and uk agree to uk free trade deal [Jaccard = 0.5714]
+2 - australia us strike free trade deal [Jaccard = 0.5714]
+3 - australia japan free trade deal [Jaccard = 0.5714]
+4 - australia malaysia free trade deal [Jaccard = 0.5714]
+5 - free trade deal fantastic for australia howard [Jaccard = 0.5000]
+6 - australia thailand to sign free trade deal [Jaccard = 0.5000]
+7 - australia and china to sign free trade deal [Jaccard = 0.5000]
+8 - australia and china set to sign free trade deal [Jaccard = 0.5000]
+9 - us committee approves australia free trade deal [Jaccard = 0.5000]
+10 - australia thailand to sign free trade deal [Jaccard = 0.5000]
 Palavras Emergentes presentes nessas manchetes:
   (nenhuma)
 
-Manchete Original: brothers on drugs charges grew up in meth lab
+Manchete Original: dad to be kirsten to miss test against west indies
 Top 10 similares:
-1 - big boi drugs charges [Jaccard = 0.4000]
-2 - lacey brothers to stand trial on drugs charges [Jaccard = 0.3750]
-3 - drugs charges in mandurah [Jaccard = 0.3333]
-4 - bunbury man on drugs charges [Jaccard = 0.3333]
-5 - footballer on drugs charges [Jaccard = 0.3333]
-6 - perth man on drugs charges [Jaccard = 0.3333]
-7 - doctor on drugs charges [Jaccard = 0.3333]
-8 - brothers to face gun charges [Jaccard = 0.3333]
-9 - qld man admits to counterfeiting drugs charges [Jaccard = 0.2857]
-10 - three arrested in nt on drugs charges [Jaccard = 0.2857]
+1 - okeefe in for siddle for scg test against west indies [Jaccard = 0.5000]
+2 - west indies at 439 runs in test [Jaccard = 0.4286]
+3 - west indies on top against india [Jaccard = 0.4286]
+4 - west indies to bat against pakistan [Jaccard = 0.4286]
+5 - west indies on top against zimbabwe [Jaccard = 0.4286]
+6 - west indies to bat against australia [Jaccard = 0.4286]
+7 - west indies cruising against qld [Jaccard = 0.4286]
+8 - coronavirus jofra archer to miss england west indies test [Jaccard = 0.4000]
+9 - pattinson relishes test revival against troubled west indies [Jaccard = 0.4000]
+10 - west indies big hitters missing for test series against austral [Jaccard = 0.4000]
+Palavras Emergentes presentes nessas manchetes:
+  coronavirus [C(p) = 8942.0000]
+
+Manchete Original: lifesaver warns against swimming at re opened beach
+Top 10 similares:
+1 - epa warns against swimming at rye beach [Jaccard = 0.6667]
+2 - iemma warns against violence at sydney beach [Jaccard = 0.3333]
+3 - usq warns against cap on uni placements [Jaccard = 0.2857]
+4 - academic warns against china fta [Jaccard = 0.2500]
+5 - us president warns against overconfidence [Jaccard = 0.2500]
+6 - asx warns alp against prescriptive governance [Jaccard = 0.2500]
+7 - gilchrist warns against complacency [Jaccard = 0.2500]
+8 - wenger warns against complacency [Jaccard = 0.2500]
+9 - sby warns new cabinet against graft [Jaccard = 0.2500]
+10 - pm warns party against complacency [Jaccard = 0.2500]
 Palavras Emergentes presentes nessas manchetes:
   (nenhuma)
 
-Manchete Original: interview jesse mogg
+Manchete Original: men found not guilty over cannabis crop
 Top 10 similares:
-1 - interview jesse white [Jaccard = 0.5000]
-2 - interview adam mogg [Jaccard = 0.5000]
-3 - interview adam mogg [Jaccard = 0.5000]
-4 - interview jesse white [Jaccard = 0.5000]
-5 - interview jesse bromwich [Jaccard = 0.5000]
-6 - media call jesse mogg [Jaccard = 0.4000]
-7 - interview tim roe [Jaccard = 0.3333]
-8 - interview tim roe [Jaccard = 0.3333]
-9 - interview pat lam [Jaccard = 0.3333]
-10 - interview li na [Jaccard = 0.3333]
+1 - man jailed over cannabis crop found in act home in 2012 [Jaccard = 0.5714]
+2 - man found guilty over rape [Jaccard = 0.5000]
+3 - man charged over 5m cannabis crop [Jaccard = 0.5000]
+4 - man found guilty over pub bashing [Jaccard = 0.5000]
+5 - man arrested over cannabis crop [Jaccard = 0.5000]
+6 - man found not guilty over stabbing [Jaccard = 0.5000]
+7 - man charged over cannabis crop [Jaccard = 0.5000]
+8 - man found guilty over amphetamines drug lab [Jaccard = 0.4286]
+9 - cannabis crop found in state forest [Jaccard = 0.4286]
+10 - man found guilty over wifes murder [Jaccard = 0.4286]
 Palavras Emergentes presentes nessas manchetes:
   (nenhuma)
 
-Manchete Original: council approves poultry farm
+Manchete Original: farmers fear abb merger will affect grain pool
 Top 10 similares:
-1 - poultry farm [Jaccard = 0.5000]
-2 - griffith poultry farm gets council nod [Jaccard = 0.5000]
-3 - poultry farm nsw [Jaccard = 0.5000]
-4 - council lays out welcome mat for poultry farm [Jaccard = 0.5000]
-5 - loddon shire approves laanecoorie poultry farm [Jaccard = 0.4286]
-6 - tweed council rejects application for poultry farm [Jaccard = 0.4286]
-7 - processing poultry on farm [Jaccard = 0.4000]
-8 - council approves subdivision [Jaccard = 0.4000]
-9 - sunshine coast council approves solar farm plans [Jaccard = 0.3750]
-10 - council approves north east wind farm application [Jaccard = 0.3750]
+1 - rfs merger will affect volunteers [Jaccard = 0.3750]
+2 - farmers fear grain rail closure [Jaccard = 0.3333]
+3 - farmers fear wild dogs will attack people [Jaccard = 0.2727]
+4 - farmers fear carbon surcharge will hurt freight [Jaccard = 0.2727]
+5 - farmers fear gunns fallout will costs millions [Jaccard = 0.2727]
+6 - residents fear policy change will affect timber [Jaccard = 0.2727]
+7 - farmers fear greens [Jaccard = 0.2500]
+8 - emerald grain pool class action wa farmers millions lost [Jaccard = 0.2500]
+9 - abb grain backs merger [Jaccard = 0.2500]
+10 - new president will affect us [Jaccard = 0.2500]
 Palavras Emergentes presentes nessas manchetes:
   (nenhuma)
 
-Manchete Original: raonic melzer advance to memphis final
+Manchete Original: capriati confident of serena hat trick
 Top 10 similares:
-1 - roddick to face raonic in memphis final [Jaccard = 0.4286]
-2 - melzer stops raonic to win memphis title [Jaccard = 0.4286]
-3 - liverpool advance to ucl final [Jaccard = 0.3333]
-4 - ironmen advance to final round [Jaccard = 0.2857]
-5 - france and russia advance to fed cup final [Jaccard = 0.2857]
-6 - impressive blues advance to final [Jaccard = 0.2857]
-7 - isner rochus advance to atp final [Jaccard = 0.2857]
-8 - raonic fish advance to semis [Jaccard = 0.2857]
-9 - rangers advance to prelim final [Jaccard = 0.2857]
-10 - wildcats advance to nbl grand final [Jaccard = 0.2857]
+1 - serena aiming for open hat trick [Jaccard = 0.3333]
+2 - serena destroys capriati mauresmo advances [Jaccard = 0.2857]
+3 - serena confident ahead of french defence [Jaccard = 0.2857]
+4 - stoner not confident of securing hat trick of wins [Jaccard = 0.2857]
+5 - confident serena primed for title defence [Jaccard = 0.2857]
+6 - serena to face capriati mauresmo up against [Jaccard = 0.2857]
+7 - capriati edges serena in titanic quarter final [Jaccard = 0.2500]
+8 - kuerten ousts federer serena capriati through [Jaccard = 0.2500]
+9 - hewitt capriati dumped serena stutters through [Jaccard = 0.2500]
+10 - confident serena ready to bury paris nightmare [Jaccard = 0.2500]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: vujanic salvages victory for serbs
+Top 10 similares:
+1 - australia set for victory [Jaccard = 0.2000]
+2 - australia set for victory [Jaccard = 0.2000]
+3 - nz coast to victory in top end [Jaccard = 0.2000]
+4 - australia set for victory [Jaccard = 0.2000]
+5 - aussies eye victory [Jaccard = 0.2000]
+6 - nsw need 139 for victory [Jaccard = 0.2000]
+7 - nz poised for victory [Jaccard = 0.2000]
+8 - victory eye adelaide [Jaccard = 0.2000]
+9 - sri lanka set 370 for victory [Jaccard = 0.2000]
+10 - sri lankans set 370 for victory [Jaccard = 0.2000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: act sex assault figures on the rise
+Top 10 similares:
+1 - assault on the rise in nt [Jaccard = 0.6667]
+2 - us jobs figures rise [Jaccard = 0.5000]
+3 - rise expected in cpi figures [Jaccard = 0.5000]
+4 - significant rise in north coast assault figures [Jaccard = 0.5000]
+5 - assault cases on the rise in tasmania [Jaccard = 0.4000]
+6 - nt figures highest on assault statistics [Jaccard = 0.4000]
+7 - sa sheep slaughter figures on the rise [Jaccard = 0.4000]
+8 - figures show 20pc rise in assaults [Jaccard = 0.4000]
+9 - sexual assault convictions on the rise [Jaccard = 0.4000]
+10 - housing finance figures on the rise [Jaccard = 0.4000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: giardia cases on the rise in act
+Top 10 similares:
+1 - bjd cases on the rise in qld [Jaccard = 0.6667]
+2 - hiv cases on the rise [Jaccard = 0.6667]
+3 - std cases on the rise [Jaccard = 0.6667]
+4 - new hiv cases on the rise [Jaccard = 0.6667]
+5 - ojd cases on the rise [Jaccard = 0.6667]
+6 - flu cases on the rise [Jaccard = 0.6667]
+7 - flu cases on the rise in southern nsw [Jaccard = 0.5000]
+8 - hunter flu cases on the rise [Jaccard = 0.5000]
+9 - snakebite cases on the rise [Jaccard = 0.5000]
+10 - diarrhoea cases on the rise [Jaccard = 0.5000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: molik at home on centre court
+Top 10 similares:
+1 - court has new judge but no home [Jaccard = 0.4000]
+2 - visitor centre may find new home [Jaccard = 0.3333]
+3 - court overturns muslim centre ban [Jaccard = 0.3333]
+4 - lakers hit back on home court [Jaccard = 0.3333]
+5 - federer clinical on home court [Jaccard = 0.3333]
+6 - melbourne home to big bang centre [Jaccard = 0.3333]
+7 - high court challenge to png centre [Jaccard = 0.3333]
+8 - stand off marine centre court [Jaccard = 0.3333]
+9 - man in court over home invasions [Jaccard = 0.3333]
+10 - wellington tourist centre to get new home [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: fire crews battle historic warship blaze
+Top 10 similares:
+1 - fire crews battle wa blaze [Jaccard = 0.6667]
+2 - fire crews battle sa blaze [Jaccard = 0.6667]
+3 - fire crews battle qld blaze [Jaccard = 0.6667]
+4 - fire crews battle booragoon blaze [Jaccard = 0.5714]
+5 - fire crews battle blaze in hobarts cbd [Jaccard = 0.5714]
+6 - fire crews battle blaze in gilgandra [Jaccard = 0.5714]
+7 - fire crews battle wybong blaze [Jaccard = 0.5714]
+8 - fire crews battle blaze in the grampians [Jaccard = 0.5714]
+9 - fire crews battle factory blaze [Jaccard = 0.5714]
+10 - tas fire crews battle school blaze [Jaccard = 0.5714]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: eurobodalla rates could rise by 135 percent
+Top 10 similares:
+1 - rates expected to rise by 35 percent [Jaccard = 0.5000]
+2 - 65 percent rise in mid murray rates [Jaccard = 0.5000]
+3 - why mortgage rates could rise [Jaccard = 0.5000]
+4 - deafblind rates expected to rise 30 percent by 2020 [Jaccard = 0.4286]
+5 - unemployment rates could hit 20 percent in shoalhaven [Jaccard = 0.4286]
+6 - rates on the rise [Jaccard = 0.4000]
+7 - vic mps get 25 percent pay rise [Jaccard = 0.4000]
+8 - us rates rise to 225pc [Jaccard = 0.4000]
+9 - euro zone interest rates could rise [Jaccard = 0.3750]
+10 - interest rates could rise as unemployment goes up [Jaccard = 0.3750]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: dozens killed in widespread iraq attacks
+Top 10 similares:
+1 - dozens killed in iraq attacks [Jaccard = 0.8000]
+2 - dozens killed in iraq attacks [Jaccard = 0.8000]
+3 - dozens killed in attacks in iraq [Jaccard = 0.8000]
+4 - dozens killed in iraq car bomb attacks [Jaccard = 0.6667]
+5 - 13 killed in iraq attacks [Jaccard = 0.6000]
+6 - 7 killed in iraq attacks [Jaccard = 0.6000]
+7 - 14 killed in iraq attacks [Jaccard = 0.6000]
+8 - 25 killed in iraq attacks [Jaccard = 0.6000]
+9 - 14 killed in iraq attacks [Jaccard = 0.6000]
+10 - more killed in iraq attacks [Jaccard = 0.5000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: govts ir ad campaign wont work labor
+Top 10 similares:
+1 - labor ad campaign attacks govts nuclear agenda [Jaccard = 0.3750]
+2 - smoking law wont work [Jaccard = 0.3333]
+3 - labor launches tax cut ad campaign [Jaccard = 0.3333]
+4 - labor mlc back at work [Jaccard = 0.3333]
+5 - labor launches act campaign [Jaccard = 0.3333]
+6 - labor attacks govts anti domestic violence campaign [Jaccard = 0.3333]
+7 - labor launches jay 4 sa campaign ad [Jaccard = 0.3333]
+8 - act labor launches its campaign [Jaccard = 0.3333]
+9 - govts nt alcohol laws wont work hotel association [Jaccard = 0.3333]
+10 - work cut out for labor in south wa [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: mother puzzled by sudden discovery of school files
+Top 10 similares:
+1 - school evacuated after mould discovery [Jaccard = 0.2222]
+2 - school asbestos discovery posed no risk to students [Jaccard = 0.2000]
+3 - mother sues school after son dies on excursion [Jaccard = 0.2000]
+4 - pingelly mother forced into 200km daily school run [Jaccard = 0.2000]
+5 - asbestos discovery prompts newcastle school closure [Jaccard = 0.2000]
+6 - school closures files dispute reaches court [Jaccard = 0.2000]
+7 - mother celebrates triplets miracle milestone first day of school [Jaccard = 0.1818]
+8 - mother accused of stabbing at byron bay school refused bail [Jaccard = 0.1818]
+9 - school asbestos discovery triggers messy political fight [Jaccard = 0.1818]
+10 - melbourne mother calls for gender equality in school uniforms [Jaccard = 0.1818]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: govt bypasses council and approves denmark wind
+Top 10 similares:
+1 - vic govt approves 326m wind farm [Jaccard = 0.4286]
+2 - vic govt approves wind farm [Jaccard = 0.4286]
+3 - vic govt approves new wind farm [Jaccard = 0.4286]
+4 - govt approves wind farm near goulburn [Jaccard = 0.3333]
+5 - govt approves 21 turbine wind farm development [Jaccard = 0.3333]
+6 - denmark council to consider wind farm rezoning [Jaccard = 0.3333]
+7 - council approves north east wind farm application [Jaccard = 0.3000]
+8 - nsw govt approves two new mines [Jaccard = 0.2857]
+9 - sa govt approves 40m marina [Jaccard = 0.2857]
+10 - council approves subdivision [Jaccard = 0.2857]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: still hope for casino murwillumbah line
+Top 10 similares:
+1 - casino murwillumbah rail line reopening not [Jaccard = 0.4286]
+2 - casino to murwillumbah rail line supporters rally [Jaccard = 0.3750]
+3 - casino murwillumbah rail service to go [Jaccard = 0.2857]
+4 - hope for bells line progress [Jaccard = 0.2857]
+5 - no positives but still hope for victory [Jaccard = 0.2857]
+6 - hope for rail line to reopen one day [Jaccard = 0.2857]
+7 - hope still high for tier 3 [Jaccard = 0.2857]
+8 - rail line still blocked [Jaccard = 0.2857]
+9 - still hope for alma pool [Jaccard = 0.2857]
+10 - siev x memorial organisers still hope for [Jaccard = 0.2500]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: abetz non committal on resources to combat illegal
+Top 10 similares:
+1 - commission to use education to combat illegal [Jaccard = 0.2857]
+2 - illegal drug use tying up hospital resources [Jaccard = 0.2500]
+3 - indonesia pledges to combat illegal logging [Jaccard = 0.2500]
+4 - natural resources dept probes illegal dam [Jaccard = 0.2500]
+5 - customs boost to combat illegal fishing [Jaccard = 0.2500]
+6 - campaign to combat illegal charity bin dumping [Jaccard = 0.2500]
+7 - new measures to combat illegal fishing announced [Jaccard = 0.2500]
+8 - australia steps up efforts to combat illegal [Jaccard = 0.2500]
+9 - authorities pool resources to combat problem dogs [Jaccard = 0.2222]
+10 - govt mulls trade sanctions to combat illegal [Jaccard = 0.2222]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: i dont have any specific recollection downer tells
+Top 10 similares:
+1 - victim tells priest may god have mercy; i dont [Jaccard = 0.3333]
+2 - the recession we dont have to have [Jaccard = 0.2857]
+3 - we dont want you pm tells papuans [Jaccard = 0.2500]
+4 - we dont have any evidence or intelligence to [Jaccard = 0.2500]
+5 - cover us downer tells solomons [Jaccard = 0.2500]
+6 - have a go peris tells nt kids [Jaccard = 0.2500]
+7 - truss tells zoellick to have a cow [Jaccard = 0.2500]
+8 - dont be offended beattie tells redneck nsw [Jaccard = 0.2222]
+9 - hu tells media dont politicise olympics [Jaccard = 0.2222]
+10 - we have urged restraint in uzbekistan downer [Jaccard = 0.2222]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: labor says govt using cole inquiry to avoid
+Top 10 similares:
+1 - govt preparing to cut spending labor says [Jaccard = 0.3333]
+2 - govt pushing to cut wages labor says [Jaccard = 0.3333]
+3 - govt cuddling up to one nation says labor [Jaccard = 0.3333]
+4 - govt says pbs would disappear under labor [Jaccard = 0.3000]
+5 - labor wants awb inquiry to probe govt role [Jaccard = 0.3000]
+6 - put pm under wheat inquiry spotlight says labor [Jaccard = 0.3000]
+7 - downer says awb inquiry should exclude govt [Jaccard = 0.3000]
+8 - govt alters cole inquiry terms of reference [Jaccard = 0.3000]
+9 - cole inquiry told bhp hid iraqi govt transactions [Jaccard = 0.3000]
+10 - govt obstructed cash for visa inquiry labor [Jaccard = 0.3000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: union welcomes bluescope chiefs comments
+Top 10 similares:
+1 - ex union boss welcomes top job [Jaccard = 0.3333]
+2 - union welcomes csiro review [Jaccard = 0.2857]
+3 - police union welcomes new appointments [Jaccard = 0.2857]
+4 - union concerned at bluescope eba breakdown [Jaccard = 0.2857]
+5 - union welcomes holden pay offer [Jaccard = 0.2857]
+6 - union welcomes forster report [Jaccard = 0.2857]
+7 - union welcomes firefighting report [Jaccard = 0.2857]
+8 - union welcomes venue smoking ban [Jaccard = 0.2857]
+9 - union welcomes new ansett payments [Jaccard = 0.2857]
+10 - union welcomes job allocations for registry [Jaccard = 0.2857]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: move to preserve colonial relics
+Top 10 similares:
+1 - hundreds of colonial relics uncovered at willow court [Jaccard = 0.2500]
+2 - mad dog cox to move to qld [Jaccard = 0.2500]
+3 - move on [Jaccard = 0.2500]
+4 - aust backs regional move to preserve fish stocks [Jaccard = 0.2222]
+5 - mp to move on crossbow ban [Jaccard = 0.2000]
+6 - norgren on the move at pga [Jaccard = 0.2000]
+7 - moore on the move [Jaccard = 0.2000]
+8 - chelsea aim to preserve gap at top [Jaccard = 0.2000]
+9 - us troops on the move [Jaccard = 0.2000]
+10 - crocodiles on the move [Jaccard = 0.2000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: police association satisfied with transfer
+Top 10 similares:
+1 - police association unhappy with situation at [Jaccard = 0.4286]
+2 - police association not happy with numbers [Jaccard = 0.4286]
+3 - canberrans less satisfied with police service [Jaccard = 0.3750]
+4 - minister satisfied with police misconduct probe [Jaccard = 0.3750]
+5 - indonesian boy on the run with 11000 police [Jaccard = 0.3333]
+6 - police transfer concern [Jaccard = 0.3333]
+7 - man in stand off with police [Jaccard = 0.3333]
+8 - afl satisfied with world cup bid [Jaccard = 0.3333]
+9 - police end stand off with man [Jaccard = 0.3333]
+10 - police chief satisfied with solomons murder probe [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: ex un oil for food head charged
+Top 10 similares:
+1 - turner charged for head contact [Jaccard = 0.4000]
+2 - food to go [Jaccard = 0.3333]
+3 - annan to discipline oil for food program head [Jaccard = 0.3333]
+4 - gm food not the way to go [Jaccard = 0.3333]
+5 - dic head [Jaccard = 0.3333]
+6 - tas top cop charged [Jaccard = 0.3333]
+7 - three charged over oil for food scandal [Jaccard = 0.3333]
+8 - man charged after kicking officer in head [Jaccard = 0.3333]
+9 - 24yo charged after woman shot in head [Jaccard = 0.3333]
+10 - un suspends former head of oil for food program [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: north shore rail services back on track
+Top 10 similares:
+1 - rail services to get back on track [Jaccard = 0.6667]
+2 - rail services back on track [Jaccard = 0.6667]
+3 - rail services back on track [Jaccard = 0.6667]
+4 - rail services back on track [Jaccard = 0.6667]
+5 - repairs put rail services back on track [Jaccard = 0.5714]
+6 - ballarat rail services back on track [Jaccard = 0.5714]
+7 - rail services getting back on track [Jaccard = 0.5714]
+8 - passenger rail services back on track [Jaccard = 0.5714]
+9 - rail services to be back on track soon [Jaccard = 0.5714]
+10 - plan to get rail passenger services back on track [Jaccard = 0.5000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: cosgrove relieved vcs staying in aust
+Top 10 similares:
+1 - cosgrove new gg [Jaccard = 0.2500]
+2 - mokbel on his way to aust [Jaccard = 0.2000]
+3 - kangaroos staying put afl [Jaccard = 0.2000]
+4 - aust day honours for 60 in wa [Jaccard = 0.2000]
+5 - aust oil interests [Jaccard = 0.2000]
+6 - aust ups burma aid [Jaccard = 0.2000]
+7 - leslie relieved to be out [Jaccard = 0.2000]
+8 - stanhope staying put [Jaccard = 0.2000]
+9 - staying warm [Jaccard = 0.2000]
+10 - joey a relieved man [Jaccard = 0.2000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: australias silent struggle with autism
+Top 10 similares:
+1 - aussies struggle with bat [Jaccard = 0.3333]
+2 - macadamia farmers struggle with dry rot [Jaccard = 0.2857]
+3 - prisons struggle with overcrowding [Jaccard = 0.2857]
+4 - australias 25b friendship with indonesia [Jaccard = 0.2857]
+5 - obamas struggle with history [Jaccard = 0.2857]
+6 - titans struggle with selections [Jaccard = 0.2857]
+7 - relations with png an indicator of australias [Jaccard = 0.2857]
+8 - australias engagment with india [Jaccard = 0.2857]
+9 - black caps struggle with bat [Jaccard = 0.2857]
+10 - springboks struggle with injuries [Jaccard = 0.2857]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: ex staffer in custody for swindling abc
+Top 10 similares:
+1 - mps son in custody [Jaccard = 0.3333]
+2 - custody boy [Jaccard = 0.3333]
+3 - man in custody [Jaccard = 0.3333]
+4 - man escapes custody [Jaccard = 0.2500]
+5 - lax gunman in custody [Jaccard = 0.2500]
+6 - women in custody [Jaccard = 0.2500]
+7 - remanded in custody [Jaccard = 0.2500]
+8 - custody service als [Jaccard = 0.2500]
+9 - suspect in custody [Jaccard = 0.2500]
+10 - ex staffer defrauded abc of 600000 [Jaccard = 0.2500]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: general signals iraq troop reductions
+Top 10 similares:
+1 - poland signals end to iraq troop deployment [Jaccard = 0.4286]
+2 - us troop increase in iraq signals new phase obama [Jaccard = 0.3750]
+3 - us to cut troop presence in iraq [Jaccard = 0.3333]
+4 - us considers new general for iraq [Jaccard = 0.3333]
+5 - ukraine to cut iraq troop numbers [Jaccard = 0.2857]
+6 - poland to cut iraq troop numbers [Jaccard = 0.2857]
+7 - us extends iraq troop deployment [Jaccard = 0.2857]
+8 - us plans iraq troop reduction [Jaccard = 0.2857]
+9 - us to maintain troop numbers in iraq [Jaccard = 0.2857]
+10 - honduras to end iraq troop commitment [Jaccard = 0.2857]
+Palavras Emergentes presentes nessas manchetes:
+  obama [C(p) = 313.0000]
+
+Manchete Original: nt receives 17m in mental health support
+Top 10 similares:
+1 - pm receives support on health challenge [Jaccard = 0.6000]
+2 - mental health support for gp clinics [Jaccard = 0.6000]
+3 - mental health support packages for vic; sa and nsw [Jaccard = 0.6000]
+4 - treasurer defends mental health support [Jaccard = 0.5000]
+5 - mental health [Jaccard = 0.5000]
+6 - support for new secure mental health site [Jaccard = 0.5000]
+7 - indigenous support for mental health commission [Jaccard = 0.5000]
+8 - mental health support for returning veterans [Jaccard = 0.5000]
+9 - mental health support goes mobile [Jaccard = 0.5000]
+10 - drought areas to get mental health support [Jaccard = 0.5000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: fears mine expansion to affect moranbah residents
+Top 10 similares:
+1 - stratford residents oppose mine expansion [Jaccard = 0.3750]
+2 - vcat to hear mine expansion fears [Jaccard = 0.3750]
+3 - coal mine expansion prompts water fears [Jaccard = 0.3333]
+4 - galong residents wary of proposed mine expansion [Jaccard = 0.3333]
+5 - bargo residents reject tahmoor mine expansion [Jaccard = 0.3333]
+6 - fears mine expansion to intensify skills shortage [Jaccard = 0.3333]
+7 - fears mine expansion could strain medical services [Jaccard = 0.3000]
+8 - mandalong residents call for 7km path as part of mine expansion [Jaccard = 0.3000]
+9 - residents celebrate after ashton mine expansion rejected [Jaccard = 0.3000]
+10 - council says mine expansion wont affect kandos [Jaccard = 0.3000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: gallagher burke bicker over health hotline
+Top 10 similares:
+1 - states bicker over health funding [Jaccard = 0.3750]
+2 - states bicker over health funding [Jaccard = 0.3750]
+3 - health boss unconcerned over inquiry into burke [Jaccard = 0.3000]
+4 - health hotline a success [Jaccard = 0.2857]
+5 - gallagher on act health strategy [Jaccard = 0.2857]
+6 - nt budgets over 1b for health [Jaccard = 0.2857]
+7 - health hotline debated [Jaccard = 0.2857]
+8 - concern over health changes [Jaccard = 0.2500]
+9 - ama defends doc over indigenous health [Jaccard = 0.2500]
+10 - concern over new health report [Jaccard = 0.2500]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: logan gets wnbl nod
+Top 10 similares:
+1 - canberra outplay logan in wnbl [Jaccard = 0.4000]
+2 - logan thunder cut from wnbl [Jaccard = 0.4000]
+3 - wnbl round 11 preview logan vs townsville [Jaccard = 0.3333]
+4 - wnbl round 14 hilites canberra vs logan [Jaccard = 0.3333]
+5 - wnbl round 14 highlights canberra vs logan [Jaccard = 0.3333]
+6 - wnbl round 11 highlights logan vs townsville [Jaccard = 0.3333]
+7 - wnbl round 14 preview canberra vs logan [Jaccard = 0.3333]
+8 - bendigo powers past logan in wnbl [Jaccard = 0.3333]
+9 - wnbl round 15 highlights logan vs adelaide [Jaccard = 0.3333]
+10 - as bad as it gets [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: asbestos fears at tas cement factory
+Top 10 similares:
+1 - ox asbestos fears [Jaccard = 0.5000]
+2 - ex cement factory workers found for asbestos study [Jaccard = 0.4286]
+3 - asbestos testing for past cement factory staff [Jaccard = 0.4286]
+4 - tasmanian spud factory proposal sparks asbestos fears [Jaccard = 0.3750]
+5 - asbestos fears after storm [Jaccard = 0.3333]
+6 - epa hears asbestos dump fears [Jaccard = 0.3333]
+7 - cement factory sparks protest [Jaccard = 0.3333]
+8 - air testing eases asbestos fears [Jaccard = 0.3333]
+9 - asbestos fears close kindy [Jaccard = 0.3333]
+10 - asbestos fears for thousands of driveways [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: sa policeman charged with child sex abuse
+Top 10 similares:
+1 - 11th wa man charged with child sex abuse [Jaccard = 0.8000]
+2 - six wa men charged with child sex abuse [Jaccard = 0.8000]
+3 - man charged with child sex abuse [Jaccard = 0.8000]
+4 - man charged with 240 counts of child sex abuse [Jaccard = 0.6667]
+5 - bikie charged with child abuse pornography [Jaccard = 0.5714]
+6 - victorian policeman charged with child sex offences [Jaccard = 0.5714]
+7 - catholic brother charged with child abuse [Jaccard = 0.5714]
+8 - man charged with sending child sex sms [Jaccard = 0.5000]
+9 - man charged with stabbing policeman [Jaccard = 0.5000]
+10 - man charged with procuring a child for sex [Jaccard = 0.5000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: farmers go with flow to find new rice region
+Top 10 similares:
+1 - rice farmers look to new region as irrigation [Jaccard = 0.3750]
+2 - support for farmers with end of ec [Jaccard = 0.2857]
+3 - sea gas to work with farmers on repairs [Jaccard = 0.2500]
+4 - man charged with defrauding farmers [Jaccard = 0.2500]
+5 - rice farmers back in production [Jaccard = 0.2500]
+6 - farmers happy with downpour [Jaccard = 0.2500]
+7 - awn to partner with united farmers [Jaccard = 0.2500]
+8 - mp to discuss bio gas plan with farmers [Jaccard = 0.2500]
+9 - farmers unhappy with ec decision [Jaccard = 0.2500]
+10 - farmers hit with drought aid changes [Jaccard = 0.2500]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: the state treasury has warned the nationals
+Top 10 similares:
+1 - vic nationals to elect new president at state [Jaccard = 0.3333]
+2 - nationals prepare for state conference [Jaccard = 0.3333]
+3 - state's nationals meet in bathurst [Jaccard = 0.3333]
+4 - nationals wrap up state forum [Jaccard = 0.3333]
+5 - nationals elect new state president [Jaccard = 0.3333]
+6 - nationals state case for more dams [Jaccard = 0.2857]
+7 - farmers warned of state wide scam [Jaccard = 0.2857]
+8 - liberals nationals prepare for state election [Jaccard = 0.2857]
+9 - new state nationals president must reunite [Jaccard = 0.2857]
+10 - qld most popular state for migrants treasury [Jaccard = 0.2857]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: rudd recalls mums breast cancer struggle
+Top 10 similares:
+1 - mums run to promote breast cancer awareness [Jaccard = 0.3750]
+2 - qch breast cancer [Jaccard = 0.3333]
+3 - breast cancer abc 2 [Jaccard = 0.3333]
+4 - pop star anastacia recalls breast cancer shock [Jaccard = 0.3333]
+5 - breast cancer protein [Jaccard = 0.2857]
+6 - breast cancer screening [Jaccard = 0.2857]
+7 - breast cancer study pm [Jaccard = 0.2857]
+8 - breast cancer report [Jaccard = 0.2857]
+9 - new breast cancer research [Jaccard = 0.2857]
+10 - male breast cancer [Jaccard = 0.2857]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: bettie page dies in la
+Top 10 similares:
+1 - don page [Jaccard = 0.3333]
+2 - page cat c [Jaccard = 0.3333]
+3 - win tin dies [Jaccard = 0.3333]
+4 - sir joh dies [Jaccard = 0.3333]
+5 - page mp csg [Jaccard = 0.3333]
+6 - silent film star anita page dies [Jaccard = 0.2857]
+7 - man dies in car crash [Jaccard = 0.2500]
+8 - mcdonalds ceo dies [Jaccard = 0.2500]
+9 - man dies after hit and run [Jaccard = 0.2500]
+10 - man dies in car crash [Jaccard = 0.2500]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: satellite service to bring digital tv to every
+Top 10 similares:
+1 - territory nbn satellite service [Jaccard = 0.3333]
+2 - scott the abc's digital service is a winner [Jaccard = 0.2857]
+3 - abc delays new digital radio service [Jaccard = 0.2857]
+4 - foxtel unveils digital service [Jaccard = 0.2857]
+5 - smooth transition to digital service [Jaccard = 0.2857]
+6 - pbl in joint venture to bring new betting service [Jaccard = 0.2500]
+7 - digital tv towers satellite dish costs [Jaccard = 0.2500]
+8 - clp to cut to public service bring in youth curfew [Jaccard = 0.2500]
+9 - universal music trials all digital service [Jaccard = 0.2500]
+10 - qld government stalls digital satellite roll out [Jaccard = 0.2500]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: fears of heroin flood
+Top 10 similares:
+1 - flood fears [Jaccard = 0.6667]
+2 - flood fears ease in sa [Jaccard = 0.5000]
+3 - flood fears for culgoa [Jaccard = 0.5000]
+4 - flood fears on far north coast [Jaccard = 0.4000]
+5 - ses downplays murray flood fears [Jaccard = 0.4000]
+6 - queensland flood fears escalate [Jaccard = 0.4000]
+7 - flood fears hurting tourism [Jaccard = 0.4000]
+8 - council responds to flood fears [Jaccard = 0.4000]
+9 - flood fears move to southern qld [Jaccard = 0.4000]
+10 - rta to listen to residents flood fears [Jaccard = 0.4000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: thousands gather for urban country music festival
+Top 10 similares:
+1 - thousands descend on tamworth country music festival [Jaccard = 0.5000]
+2 - tamworth country music festival [Jaccard = 0.4286]
+3 - urban up for two country music awards [Jaccard = 0.4286]
+4 - bat bus to run during country music festival [Jaccard = 0.4286]
+5 - thousands expected at gospel music festival [Jaccard = 0.3750]
+6 - tamworth country music festival under way [Jaccard = 0.3750]
+7 - problems for devonport country music festival [Jaccard = 0.3750]
+8 - tamworth fills up for country music festival [Jaccard = 0.3750]
+9 - country music festival inquiries on the rise [Jaccard = 0.3750]
+10 - big crowds enjoy country music festival [Jaccard = 0.3750]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: heartbroken swans vow to fight on
+Top 10 similares:
+1 - no finals but swans to fight on [Jaccard = 0.5000]
+2 - fight 2 [Jaccard = 0.3333]
+3 - swans expected to fight hall charge [Jaccard = 0.3333]
+4 - swans to fight points stripping decision [Jaccard = 0.3333]
+5 - fag ban fight [Jaccard = 0.3333]
+6 - gas fight [Jaccard = 0.3333]
+7 - swans run out to big win [Jaccard = 0.3333]
+8 - swans fight back against brisbane [Jaccard = 0.3333]
+9 - ir fight not over [Jaccard = 0.2500]
+10 - swans triumphant [Jaccard = 0.2500]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: moreton bay coral under threat
+Top 10 similares:
+1 - coral threat [Jaccard = 0.5000]
+2 - scientists warn coral reefs under threat [Jaccard = 0.4286]
+3 - reef under threat [Jaccard = 0.4000]
+4 - go lo under threat union [Jaccard = 0.4000]
+5 - tourism in nw tas under threat [Jaccard = 0.4000]
+6 - british gp under new threat [Jaccard = 0.4000]
+7 - scientists jobs may be under threat [Jaccard = 0.3333]
+8 - the humble british inn under threat [Jaccard = 0.3333]
+9 - advocacy service under threat [Jaccard = 0.3333]
+10 - timor sea deal under threat [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: video footage taken at the height of broken hills
+Top 10 similares:
+1 - footage of broken leg [Jaccard = 0.3333]
+2 - mobile phone footage of the broken leg [Jaccard = 0.2500]
+3 - footage of the height of the storm at pinnaroo [Jaccard = 0.2500]
+4 - broken hills heritage in the spotlight [Jaccard = 0.2500]
+5 - amatuer video footage of the man riding the [Jaccard = 0.2500]
+6 - broken hills edc in voluntary administration [Jaccard = 0.2500]
+7 - broken hills population declining [Jaccard = 0.2500]
+8 - public get say in broken hills future [Jaccard = 0.2500]
+9 - video footage the key to campbells appeal [Jaccard = 0.2500]
+10 - 2009 marks centenary of broken hills bhp union [Jaccard = 0.2222]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: renmark hosts water workshop
+Top 10 similares:
+1 - renmark hosts top wakeboarders [Jaccard = 0.4000]
+2 - renmark hosts quandong gathering [Jaccard = 0.3333]
+3 - toowoomba hosts wine skills workshop [Jaccard = 0.2857]
+4 - no date confirmed for renmark water talks [Jaccard = 0.2857]
+5 - wollongong uni hosts international water seminar [Jaccard = 0.2857]
+6 - vecci hosts water saving forum [Jaccard = 0.2857]
+7 - malaysia hosts first military workshop [Jaccard = 0.2857]
+8 - goolwa hosts water strategy conference [Jaccard = 0.2857]
+9 - renmark man accused of water meter tampering [Jaccard = 0.2857]
+10 - renmark represented at water projects meet [Jaccard = 0.2857]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: mining company looks to explore riverina
+Top 10 similares:
+1 - mining company looks to minimise environmental [Jaccard = 0.4286]
+2 - mining company gets go ahead to explore for uranium [Jaccard = 0.3750]
+3 - mining tax looks set to stay [Jaccard = 0.3333]
+4 - mining company collapses [Jaccard = 0.3333]
+5 - mining company applying for license to explore mineral resource [Jaccard = 0.3333]
+6 - fortescue mining company tax [Jaccard = 0.3333]
+7 - new mining company listed on ase [Jaccard = 0.3333]
+8 - mining company seeks nt expansion [Jaccard = 0.2857]
+9 - education company looks to asx listing [Jaccard = 0.2857]
+10 - asx investigates junior mining company [Jaccard = 0.2857]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: leading index points to economic surge
+Top 10 similares:
+1 - index points to strong economic growth [Jaccard = 0.4286]
+2 - index points to mild economic downturn [Jaccard = 0.4286]
+3 - index points to continuing economic growth [Jaccard = 0.4286]
+4 - leading index forecasts solid economic growth [Jaccard = 0.3750]
+5 - westpac melbourne institute economic activity index points to g [Jaccard = 0.3333]
+6 - index points to strong growth [Jaccard = 0.2857]
+7 - economic growth slows index [Jaccard = 0.2857]
+8 - the worst may be passing leading index [Jaccard = 0.2857]
+9 - westpac leading index december [Jaccard = 0.2857]
+10 - economic indicator points to 2004 pick up [Jaccard = 0.2857]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: broncos take another big hit
+Top 10 similares:
+1 - thurston to take on broncos [Jaccard = 0.5000]
+2 - hodges hopes take another hit [Jaccard = 0.4000]
+3 - wa government to take out another loan [Jaccard = 0.4000]
+4 - knights take on broncos in do or die clash [Jaccard = 0.4000]
+5 - us shares take another record run [Jaccard = 0.4000]
+6 - jobs ads take another slide in june [Jaccard = 0.3333]
+7 - broncos had to take action against trio [Jaccard = 0.3333]
+8 - disaster claims to take another year ica [Jaccard = 0.3333]
+9 - awa take up [Jaccard = 0.3333]
+10 - indonesia to take another 25000 head of cattle [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: taser sledgehammer used in bashing
+Top 10 similares:
+1 - taser used to subdue sword man [Jaccard = 0.3333]
+2 - taser used in party altercation [Jaccard = 0.3333]
+3 - taser gun used in hotel hold up [Jaccard = 0.3333]
+4 - taser used on off duty police officer [Jaccard = 0.2857]
+5 - taser used on boy during school assault [Jaccard = 0.2857]
+6 - police suspect bat used in wodonga bashing [Jaccard = 0.2857]
+7 - police used taser in gunman stand off [Jaccard = 0.2857]
+8 - oc spray and taser used on glen innes man [Jaccard = 0.2857]
+9 - act taser used on man after alleged assault [Jaccard = 0.2857]
+10 - taser used to subdue knife attacker [Jaccard = 0.2857]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: fish ladder the step up needed for local fish
+Top 10 similares:
+1 - 6b needed for local infrastructure report says [Jaccard = 0.2500]
+2 - 2m needed for narrogin local govt merger [Jaccard = 0.2500]
+3 - war on waste learning to love local fish [Jaccard = 0.2500]
+4 - fish ladder fixed to handle floods [Jaccard = 0.2500]
+5 - cma keen on thomson river fish ladder [Jaccard = 0.2500]
+6 - spell check not needed at local school [Jaccard = 0.2500]
+7 - water corp defends fish ladder delay [Jaccard = 0.2222]
+8 - local councils step up to climate change problem [Jaccard = 0.2222]
+9 - more aboriginal studies needed on local curriculum [Jaccard = 0.2222]
+10 - illegal fishing boat new home for local fish [Jaccard = 0.2222]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: golden handshake for lihir chief
+Top 10 similares:
+1 - chief executive gets golden handshake [Jaccard = 0.5000]
+2 - golden handshake laws amended [Jaccard = 0.3333]
+3 - butler pockets 650000 golden handshake [Jaccard = 0.3333]
+4 - golden handshake restrictions could lead to [Jaccard = 0.2857]
+5 - gesb chairman defends golden handshake [Jaccard = 0.2857]
+6 - possible gbs golden handshake being investigated [Jaccard = 0.2857]
+7 - lennon suspends butlers golden handshake [Jaccard = 0.2857]
+8 - govt waves big stick after amp golden handshake [Jaccard = 0.2500]
+9 - new esa chief [Jaccard = 0.2500]
+10 - govt acting hastily on golden handshake crackdown [Jaccard = 0.2500]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: burma bans foreign media from election
+Top 10 similares:
+1 - fiji bans 666 from election ballot papers [Jaccard = 0.3333]
+2 - twitter bans ads from two russian media outlets [Jaccard = 0.3333]
+3 - cambodia bans foreign broadcasters ahead of election [Jaccard = 0.3333]
+4 - burma sprays foreign media over despicable cyclone [Jaccard = 0.3000]
+5 - how the us media reacted to the election [Jaccard = 0.2857]
+6 - nrn election foreign investment [Jaccard = 0.2857]
+7 - burma foreign investment [Jaccard = 0.2857]
+8 - burma to end media censorship [Jaccard = 0.2857]
+9 - russian parliament bans foreign agent journalists from building [Jaccard = 0.2727]
+10 - vietnam bans social media from posting news online [Jaccard = 0.2727]
+Palavras Emergentes presentes nessas manchetes:
+  twitter [C(p) = 247.0000]
+
+Manchete Original: army takes control of spanish airport
+Top 10 similares:
+1 - war of words takes control in airport debate [Jaccard = 0.4286]
+2 - thailand coup as army takes control of government [Jaccard = 0.3750]
+3 - east timorese president takes control of army [Jaccard = 0.3750]
+4 - gusmao takes control of east timorese army [Jaccard = 0.3750]
+5 - airport planning takes off [Jaccard = 0.3333]
+6 - airport upgrade takes off [Jaccard = 0.3333]
+7 - airport upgrade takes off [Jaccard = 0.3333]
+8 - explosion at spanish airport [Jaccard = 0.3333]
+9 - india takes control on day two [Jaccard = 0.3333]
+10 - armidale airport use takes off [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: flood heroes acknowledged during qld week
+Top 10 similares:
+1 - getting to the pub during a flood [Jaccard = 0.3333]
+2 - afl finals heroes and villains week two [Jaccard = 0.2857]
+3 - nsw flood forecast for this week [Jaccard = 0.2857]
+4 - qld flood clean up to take a week ses [Jaccard = 0.2857]
+5 - afl finals week one heroes and villains [Jaccard = 0.2857]
+6 - trade drops during super gp week [Jaccard = 0.2500]
+7 - bligh honours outback flood heroes [Jaccard = 0.2500]
+8 - awards recognise central qld flood heroes [Jaccard = 0.2500]
+9 - ammunition explodes during flood clean up [Jaccard = 0.2500]
+10 - maryborough will not be overlooked during flood [Jaccard = 0.2500]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: council pool decision brave
+Top 10 similares:
+1 - council rethinks pool decision [Jaccard = 0.6000]
+2 - bendigo council stresses no pool decision yet [Jaccard = 0.5000]
+3 - 6yo drowns in qld council pool [Jaccard = 0.4000]
+4 - delay to council pay decision [Jaccard = 0.4000]
+5 - council defers big w decision [Jaccard = 0.4000]
+6 - no council decision yet on epa plan [Jaccard = 0.4000]
+7 - council pushing for drought aid decision [Jaccard = 0.3333]
+8 - council rethinking mall decision [Jaccard = 0.3333]
+9 - council welcomes signage decision [Jaccard = 0.3333]
+10 - council flights decision a winner [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: holiday shoppers voting with their feet
+Top 10 similares:
+1 - falling out of fashion with shoppers [Jaccard = 0.2500]
+2 - french expat kiwis have already voted with their feet [Jaccard = 0.2500]
+3 - packer talks with his feet [Jaccard = 0.2500]
+4 - bulldogs run crows off their feet [Jaccard = 0.2500]
+5 - retailers encouraged by us holiday shoppers [Jaccard = 0.2500]
+6 - police pleased with holiday drivers [Jaccard = 0.2222]
+7 - hospital coping with holiday demand [Jaccard = 0.2222]
+8 - magistrates urged to get on with their jobs [Jaccard = 0.2222]
+9 - brumby criticises greens mp for voting with [Jaccard = 0.2222]
+10 - wa ballet dancers vote with feet [Jaccard = 0.2222]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: big changes planned for ayers rock resort
+Top 10 similares:
+1 - ayers rock resort sale closer [Jaccard = 0.4286]
+2 - indigenous corp to bid for ayers rock resort [Jaccard = 0.4286]
+3 - review questions ayers rock resort valuation and buy by ilc [Jaccard = 0.3750]
+4 - golf course proposed for ayers rock resort [Jaccard = 0.3750]
+5 - ayers rock resort a beacon for indigenous jobs [Jaccard = 0.3750]
+6 - ayers rock resort 65m bailout nigel scullion [Jaccard = 0.3750]
+7 - new resort planned for anna bay [Jaccard = 0.3333]
+8 - atres rock resort [Jaccard = 0.3333]
+9 - ayers rock resort board sacking response david baffsky [Jaccard = 0.3000]
+10 - ayers rock resort senate estimates hearing management claims [Jaccard = 0.3000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: wallabies unfazed by auckland jinx
+Top 10 similares:
+1 - wallabies unfazed by italian sod [Jaccard = 0.4000]
+2 - wallabies to start cup campaign in auckland [Jaccard = 0.3333]
+3 - wallabies rwc base shifted to auckland [Jaccard = 0.3333]
+4 - cheika unfazed by wallabies player exodus [Jaccard = 0.2857]
+5 - cooper unfazed by wallabies snub; say reds [Jaccard = 0.2857]
+6 - wallabies [Jaccard = 0.2500]
+7 - wallabies woe [Jaccard = 0.2500]
+8 - wallabies coach cheika unfazed by missing out on bonus point [Jaccard = 0.2222]
+9 - ex wallabies set to aid us players [Jaccard = 0.2000]
+10 - wallabies win at twickenham [Jaccard = 0.2000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: call for tax equity for micro breweries
+Top 10 similares:
+1 - micro breweries call for tax relief [Jaccard = 0.6000]
+2 - call for regional public transport equity [Jaccard = 0.2857]
+3 - call for greater education funding equity [Jaccard = 0.2857]
+4 - bushfire affected victorian breweries call on cities for support [Jaccard = 0.2222]
+5 - call for equity in cooloola coast beach permit fees [Jaccard = 0.2222]
+6 - call for darwin to go dry too [Jaccard = 0.2000]
+7 - support for no hat call [Jaccard = 0.2000]
+8 - whitaker call [Jaccard = 0.2000]
+9 - call for witnesses [Jaccard = 0.2000]
+10 - exmouth ceo to call it a day [Jaccard = 0.2000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: weather am1
+Top 10 similares:
+1 - abc weather [Jaccard = 1.0000]
+2 - abc weather [Jaccard = 1.0000]
+3 - abc weather [Jaccard = 1.0000]
+4 - abc weather [Jaccard = 1.0000]
+5 - abc weather [Jaccard = 1.0000]
+6 - abc weather [Jaccard = 1.0000]
+7 - abc weather [Jaccard = 1.0000]
+8 - abc weather [Jaccard = 1.0000]
+9 - abc weather [Jaccard = 1.0000]
+10 - abc weather [Jaccard = 1.0000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: unhealthy signs for nsw emergency departments
+Top 10 similares:
+1 - two emergency departments to continue [Jaccard = 0.4000]
+2 - emergency departments in crisis lnp [Jaccard = 0.4000]
+3 - emergency signs in auslan [Jaccard = 0.4000]
+4 - friday the 13th and emergency departments [Jaccard = 0.4000]
+5 - sa emergency departments lag the nation ama [Jaccard = 0.4000]
+6 - hospital emergency departments struggling [Jaccard = 0.3333]
+7 - patients clogging emergency departments [Jaccard = 0.3333]
+8 - heatwave pressures emergency departments [Jaccard = 0.3333]
+9 - overcrowded emergency departments linked to [Jaccard = 0.3333]
+10 - hospital emergency departments busier [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: india rebounds with t20 win
+Top 10 similares:
+1 - india threatened with icc suspension [Jaccard = 0.4000]
+2 - india's battle with malnutrition [Jaccard = 0.4000]
+3 - australias engagment with india [Jaccard = 0.4000]
+4 - india wrestling with opening woes [Jaccard = 0.3333]
+5 - india level series with comfortable win [Jaccard = 0.3333]
+6 - us commits to stronger ties with india [Jaccard = 0.3333]
+7 - sehwag ignites india with explosive 201 [Jaccard = 0.3333]
+8 - india can win with spin says wright [Jaccard = 0.3333]
+9 - icc ends stand off with rebel india [Jaccard = 0.3333]
+10 - pm rules out uranium deal with india [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: planning minister wades in on eurobodalla lep
+Top 10 similares:
+1 - planning minister to have final say on [Jaccard = 0.3333]
+2 - planning minister outlines objectives [Jaccard = 0.3333]
+3 - corbell as planning minister bad news [Jaccard = 0.3333]
+4 - minister anxious for hospitals planning [Jaccard = 0.3333]
+5 - new planning minister linked to developers [Jaccard = 0.3333]
+6 - minister clarifies eurobodalla comments [Jaccard = 0.3333]
+7 - planning minister defends gas hub amendments [Jaccard = 0.3333]
+8 - planning minister attacks nsw farmers [Jaccard = 0.3333]
+9 - minister to alter tas planning system [Jaccard = 0.3333]
+10 - vic planning minister announces sustainable [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: trail bike riders rescued from bushland ordeal
+Top 10 similares:
+1 - trail bike riders rescued [Jaccard = 0.5714]
+2 - man rescued from car ordeal [Jaccard = 0.4286]
+3 - trail bike riders targeted [Jaccard = 0.3750]
+4 - man rescued from surf ordeal [Jaccard = 0.3750]
+5 - students rescued from rip ordeal [Jaccard = 0.3750]
+6 - two rescued from snowy ordeal [Jaccard = 0.3750]
+7 - man rescued from dinghy ordeal [Jaccard = 0.3750]
+8 - trail bike riders missing [Jaccard = 0.3750]
+9 - man rescued from jetty ordeal [Jaccard = 0.3750]
+10 - swimmers rescued from rip ordeal [Jaccard = 0.3750]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: graffiti crackdown reduces incidences
+Top 10 similares:
+1 - councils welcome crackdown on graffiti [Jaccard = 0.3333]
+2 - graffiti crackdown alice springs [Jaccard = 0.3333]
+3 - graffiti crackdown too slow libs [Jaccard = 0.3333]
+4 - graffiti crackdown underway in port macquarie [Jaccard = 0.2857]
+5 - 457 crackdown [Jaccard = 0.2500]
+6 - graffiti is not art [Jaccard = 0.2500]
+7 - graffiti [Jaccard = 0.2500]
+8 - new graffiti penalties [Jaccard = 0.2000]
+9 - pirate crackdown [Jaccard = 0.2000]
+10 - 457 visa crackdown [Jaccard = 0.2000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: murder accused appears in court
+Top 10 similares:
+1 - sofia murder accused appears in court [Jaccard = 0.8000]
+2 - murder accused appears in darwin court [Jaccard = 0.8000]
+3 - broome man accused of murder appears in court [Jaccard = 0.8000]
+4 - husband appears in court accused of murder [Jaccard = 0.8000]
+5 - stabbing murder accused appears in court [Jaccard = 0.8000]
+6 - yarralumla murder accused appears in court [Jaccard = 0.8000]
+7 - redcliffe murder accused appears in court [Jaccard = 0.8000]
+8 - bega man accused of stabbing murder appears in court [Jaccard = 0.6667]
+9 - boy accused of bullying appears in court [Jaccard = 0.6000]
+10 - miranda murder accused in court [Jaccard = 0.6000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: link road
+Top 10 similares:
+1 - nowra link road [Jaccard = 0.6667]
+2 - end of the road [Jaccard = 0.5000]
+3 - proposed link road win win for government and [Jaccard = 0.5000]
+4 - mh17 link [Jaccard = 0.5000]
+5 - on the road [Jaccard = 0.5000]
+6 - on the road [Jaccard = 0.5000]
+7 - tas sun road cop [Jaccard = 0.5000]
+8 - road out [Jaccard = 0.5000]
+9 - f3 m2 link [Jaccard = 0.5000]
+10 - work starts on link road [Jaccard = 0.5000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: study boosts meatworks hopes
+Top 10 similares:
+1 - study boosts type 2 diabetes hopes [Jaccard = 0.5000]
+2 - acupuncture boosts ivf chances study [Jaccard = 0.3333]
+3 - vic govt hopes farm study a gas [Jaccard = 0.3333]
+4 - takeover boosts hopes for abattoir [Jaccard = 0.3333]
+5 - rain boosts crop hopes [Jaccard = 0.3333]
+6 - meatworks hopes to use methane gas power [Jaccard = 0.3333]
+7 - downpour boosts crop hopes [Jaccard = 0.3333]
+8 - elk pull out boosts baddeleys pga hopes [Jaccard = 0.3333]
+9 - high hopes for drainage study [Jaccard = 0.3333]
+10 - adelaide win boosts finals hopes [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: queensland health to conduct new fraud probe
+Top 10 similares:
+1 - man suspected of queensland health fraud [Jaccard = 0.5000]
+2 - police conduct rivskills fraud probe [Jaccard = 0.4286]
+3 - queensland health abolished in wake of fraud scandal [Jaccard = 0.3750]
+4 - police conduct radio station fraud probe [Jaccard = 0.3750]
+5 - health sector probe [Jaccard = 0.3333]
+6 - ato widens tax fraud probe [Jaccard = 0.3333]
+7 - health fund fraud [Jaccard = 0.3333]
+8 - awu to conduct own beaconsfield probe [Jaccard = 0.3333]
+9 - nz australian fraud probe [Jaccard = 0.3333]
+10 - cost of health fraud put at 2b [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: moves to stop disease spread by bushwalkers
+Top 10 similares:
+1 - qld health moves to stop dengues spread [Jaccard = 0.4286]
+2 - ses do bit to stop dengue spread [Jaccard = 0.3333]
+3 - moves to stop supertrawler [Jaccard = 0.3333]
+4 - us fed moves to stop recession [Jaccard = 0.3333]
+5 - sheep disease may have spread [Jaccard = 0.2857]
+6 - race to stop disease in samoa [Jaccard = 0.2857]
+7 - devil disease moves west [Jaccard = 0.2857]
+8 - act urged to stop prison hep c spread [Jaccard = 0.2857]
+9 - new technology to stop spread of damaging [Jaccard = 0.2857]
+10 - new moves to stop underage drinking [Jaccard = 0.2857]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: parents fear psycological impact of fire
+Top 10 similares:
+1 - parents fear school closure impact [Jaccard = 0.4286]
+2 - fire impact and preparation [Jaccard = 0.3333]
+3 - impact of the yass fire [Jaccard = 0.3333]
+4 - gps fear drought aid depression impact [Jaccard = 0.2857]
+5 - parents fear school closure [Jaccard = 0.2857]
+6 - residents fear railway impact [Jaccard = 0.2857]
+7 - fishers fear geographe bay ban impact [Jaccard = 0.2857]
+8 - businesses fear bypass impact [Jaccard = 0.2857]
+9 - organic farmers fear csg impact [Jaccard = 0.2857]
+10 - dec to plot park fire impact [Jaccard = 0.2857]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: clarke hopes watson returns soon
+Top 10 similares:
+1 - watson returns in 13 man squad [Jaccard = 0.3333]
+2 - hopes returns for queensland at scg [Jaccard = 0.3333]
+3 - clarke hopes his 187 was not in vain [Jaccard = 0.3333]
+4 - watson returns for bombers [Jaccard = 0.3333]
+5 - watson returns to odi squad [Jaccard = 0.3333]
+6 - clarke returns to top batting rank [Jaccard = 0.2857]
+7 - clarke booms as watson busts [Jaccard = 0.2857]
+8 - clarke helped by rest: watson [Jaccard = 0.2857]
+9 - watson's opening hopes fading [Jaccard = 0.2857]
+10 - watson returns to flooded hometown [Jaccard = 0.2857]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: cfmeu fights for national buildplan subbies
+Top 10 similares:
+1 - national buildplan creditors meet today [Jaccard = 0.2500]
+2 - hope on the horizon for national buildplan subcontractors [Jaccard = 0.2500]
+3 - pauline hanson fights tears on national tv [Jaccard = 0.2500]
+4 - nt govt fights national archive closure [Jaccard = 0.2500]
+5 - coffs company national buildplan victim [Jaccard = 0.2500]
+6 - national buildplan creditors vent their anger [Jaccard = 0.2222]
+7 - cfmeu's national secretary dave noonan speaks to [Jaccard = 0.2222]
+8 - handful of national buildplan projects back on track [Jaccard = 0.2222]
+9 - sacked national buildplan staff will get money [Jaccard = 0.2222]
+10 - national museum fights falling visitor numbers [Jaccard = 0.2222]
+Palavras Emergentes presentes nessas manchetes:
+  pauline [C(p) = 225.0000]
+
+Manchete Original: pizza robbery
+Top 10 similares:
+1 - wallsend pizza robbery [Jaccard = 0.6667]
+2 - bad pizza [Jaccard = 0.5000]
+3 - pizza shop robbery foiled [Jaccard = 0.5000]
+4 - machete robbery at lake pizza shop [Jaccard = 0.4000]
+5 - armed robbery at cessnock pizza outlet [Jaccard = 0.4000]
+6 - pizza delivery driver injured in robbery [Jaccard = 0.4000]
+7 - sword used in pizza delivery robbery [Jaccard = 0.4000]
+8 - man jailed for pizza shop robbery and assaulting [Jaccard = 0.4000]
+9 - armed robbery of iga [Jaccard = 0.3333]
+10 - robbery at knifepoint [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: wa sheep flock expanding slowly but surely
+Top 10 similares:
+1 - wa sheep flock size on track [Jaccard = 0.2857]
+2 - drought reduces sheep flock [Jaccard = 0.2857]
+3 - sheep flock drops below 100m [Jaccard = 0.2857]
+4 - sheep updates ask is it worth increasing flock [Jaccard = 0.2500]
+5 - big crowds expected to flock to sheep show [Jaccard = 0.2500]
+6 - punters flock to sheep races for sheer fun [Jaccard = 0.2500]
+7 - thousands flock to riverlands running of the sheep [Jaccard = 0.2500]
+8 - sheep flock to suburban street in wa dunsborough [Jaccard = 0.2500]
+9 - dogs maul schools sheep flock [Jaccard = 0.2500]
+10 - how a sheep farmer gained a flock of followers on twitter [Jaccard = 0.2222]
+Palavras Emergentes presentes nessas manchetes:
+  twitter [C(p) = 247.0000]
+
+Manchete Original: councillor suggests quarry as site for new hospital
+Top 10 similares:
+1 - new act hospital site [Jaccard = 0.4000]
+2 - uc new hospital site [Jaccard = 0.4000]
+3 - hospital site named [Jaccard = 0.3333]
+4 - new plan for old hospital site [Jaccard = 0.3333]
+5 - councillor suggests plastic bag ban [Jaccard = 0.3333]
+6 - old hospital site up for sale [Jaccard = 0.3333]
+7 - macksville hospital new site [Jaccard = 0.3333]
+8 - site selected for new nsw hospital [Jaccard = 0.3333]
+9 - councillor suggests schoolies fee [Jaccard = 0.3333]
+10 - council makes bid for hospital site [Jaccard = 0.2857]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: tuesday markets with marcus padley
+Top 10 similares:
+1 - the markets with marcus padley [Jaccard = 0.8000]
+2 - tuesday markets with marcus padley from patersons [Jaccard = 0.7143]
+3 - wednesday markets with marcus padley [Jaccard = 0.6667]
+4 - wednesday markets with marcus padley [Jaccard = 0.6667]
+5 - wednesday markets with marcus padley [Jaccard = 0.6667]
+6 - thursday markets with marcus padley [Jaccard = 0.6667]
+7 - monday markets with marcus padley [Jaccard = 0.6667]
+8 - wednesday markets with marcus padley [Jaccard = 0.6667]
+9 - monday markets with marcus padley [Jaccard = 0.6667]
+10 - tuesday markets wtih marcus padley [Jaccard = 0.6667]
+Palavras Emergentes presentes nessas manchetes:
+  padley [C(p) = 94.0000]
+  marcus [C(p) = 88.5000]
+
+Manchete Original: pngsdp launches legal action against government
+Top 10 similares:
+1 - hair launches legal action against icc [Jaccard = 0.5714]
+2 - malaysian pm launches legal action against online [Jaccard = 0.5000]
+3 - optus launches legal action against telstra [Jaccard = 0.5000]
+4 - ausgroup launches legal action against karara [Jaccard = 0.5000]
+5 - mayor launches legal action against receivers [Jaccard = 0.5000]
+6 - union launches class action against wa government [Jaccard = 0.5000]
+7 - accc launches legal action against patrick po [Jaccard = 0.5000]
+8 - orchardist launches legal action against council [Jaccard = 0.5000]
+9 - terminally ill man launches legal action against a benalla hosp [Jaccard = 0.4444]
+10 - perdaman launches legal action against indian bank [Jaccard = 0.4444]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: grandstand at stumps second ashes test day five
+Top 10 similares:
+1 - grandstand at stumps: second test; day five [Jaccard = 0.8333]
+2 - grandstand at stumps: second ashes test day two [Jaccard = 0.8333]
+3 - grandstand at stumps second ashes test day two [Jaccard = 0.8333]
+4 - grandstand at stumps: second test; day five [Jaccard = 0.8333]
+5 - grandstand at stumps second ashes test day one [Jaccard = 0.8333]
+6 - grandstand at stumps second ashes test day two [Jaccard = 0.8333]
+7 - grandstand at stumps second ashes test day four [Jaccard = 0.7143]
+8 - grandstand at stumps: fifth ashes test; day five [Jaccard = 0.7143]
+9 - grandstand at stumps: first ashes test day five [Jaccard = 0.7143]
+10 - grandstand at stumps third ashes test day five [Jaccard = 0.7143]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: australians taking cautious approach to sochi games
+Top 10 similares:
+1 - icc taking cautious approach to technology trial [Jaccard = 0.3750]
+2 - taking a cooperative approach [Jaccard = 0.2857]
+3 - ennis taking a new approach [Jaccard = 0.2857]
+4 - cosic sochi games [Jaccard = 0.2857]
+5 - nba considering taking games to china [Jaccard = 0.2500]
+6 - taking an artistic approach to literacy [Jaccard = 0.2500]
+7 - nadal taking low key approach to open [Jaccard = 0.2500]
+8 - wa takes cautious approach on bjd reform [Jaccard = 0.2500]
+9 - australians cautious as swine flu spreads [Jaccard = 0.2500]
+10 - aus a signals more cautious approach [Jaccard = 0.2500]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: red gully gas project construction goes over budget
+Top 10 similares:
+1 - mall revamp goes 14m over budget [Jaccard = 0.3750]
+2 - ground zero project behind schedule over budget [Jaccard = 0.3000]
+3 - nsw cwa cranky over budget [Jaccard = 0.2857]
+4 - prisons over budget [Jaccard = 0.2857]
+5 - budget goes green [Jaccard = 0.2857]
+6 - construction workers walk off the job over [Jaccard = 0.2500]
+7 - ponting goes in opening over [Jaccard = 0.2500]
+8 - mps differ over federal budget [Jaccard = 0.2500]
+9 - oil for food inquiry over budget [Jaccard = 0.2500]
+10 - wa desalination plant 40m over budget [Jaccard = 0.2500]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: vcoss airs federal budget fears
+Top 10 similares:
+1 - saff airs federal budget fears [Jaccard = 0.6667]
+2 - retirees group airs federal budget fears [Jaccard = 0.5714]
+3 - mp airs budget softwood fears [Jaccard = 0.5000]
+4 - fears federal budget to axe ballarat jobs [Jaccard = 0.4286]
+5 - chamber fears federal budget cuts [Jaccard = 0.4286]
+6 - qff ceo on federal budget [Jaccard = 0.4000]
+7 - the federal budget [Jaccard = 0.4000]
+8 - federal budget [Jaccard = 0.4000]
+9 - federal budget fuels fears for outback qld tourism [Jaccard = 0.3750]
+10 - mayor airs hospital revamp budget fears [Jaccard = 0.3750]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: interview ange postecoglou
+Top 10 similares:
+1 - interview with ange postecoglou [Jaccard = 0.7500]
+2 - ange postecoglou [Jaccard = 0.6667]
+3 - interview ange postecoglou miron bleiberg [Jaccard = 0.6000]
+4 - how it all unravelled for ange postecoglou [Jaccard = 0.5000]
+5 - ange postecoglou where to now [Jaccard = 0.5000]
+6 - interview ange postacoglou [Jaccard = 0.5000]
+7 - media call ange postecoglou [Jaccard = 0.4000]
+8 - media call ange postecoglou [Jaccard = 0.4000]
+9 - media call ange postecoglou [Jaccard = 0.4000]
+10 - media call ange postecoglou [Jaccard = 0.4000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: uni apologises to students for privacy breach
+Top 10 similares:
+1 - nib apologises for privacy breach [Jaccard = 0.7500]
+2 - csc investigating privacy breach [Jaccard = 0.4000]
+3 - rice apologises for security breach [Jaccard = 0.3333]
+4 - what to do job seeker privacy breach [Jaccard = 0.3333]
+5 - rice apologises for passport breach [Jaccard = 0.3333]
+6 - medvet privacy breach online [Jaccard = 0.3333]
+7 - ufo hotspot apologises for alcohol breach [Jaccard = 0.3333]
+8 - facebook admits privacy breach [Jaccard = 0.3333]
+9 - thousands affected by telstra privacy breach [Jaccard = 0.2857]
+10 - tafe nsw apologises to students for enrolment delays [Jaccard = 0.2857]
+Palavras Emergentes presentes nessas manchetes:
+  facebook [C(p) = 721.0000]
+
+Manchete Original: moodys warns on rising bank home loan risks
+Top 10 similares:
+1 - bank sa home loan cut 026pc [Jaccard = 0.4286]
+2 - moodys welcomes stricter bank home loan standards [Jaccard = 0.4000]
+3 - rba deputy discusses home loan risks [Jaccard = 0.3333]
+4 - home loan mortgage arrears rising [Jaccard = 0.3333]
+5 - interest rate rba reserve bank home loan [Jaccard = 0.3000]
+6 - bendigo bank increases home loan rates [Jaccard = 0.3000]
+7 - reserve bank warns on rising house prices [Jaccard = 0.3000]
+8 - bank sa variable home loan rate rise [Jaccard = 0.3000]
+9 - reserve bank warns on household debt risks [Jaccard = 0.3000]
+10 - commonwealth bank cuts home loan rates [Jaccard = 0.3000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: public feedback sought to management plan for port macquarie wa
+Top 10 similares:
+1 - public feedback sought on 33m coffs plan [Jaccard = 0.5000]
+2 - feedback sought on growth management plan [Jaccard = 0.5000]
+3 - public feedback sought on 20m stormwater plan [Jaccard = 0.5000]
+4 - public feedback sought on jail plan [Jaccard = 0.5000]
+5 - feedback sought on outback management plan [Jaccard = 0.5000]
+6 - feedback sought on kosciuszko management plan [Jaccard = 0.5000]
+7 - feedback sought on water management plan [Jaccard = 0.5000]
+8 - feedback sought on boambee creek management plan [Jaccard = 0.4444]
+9 - public comment sought on fire management plan [Jaccard = 0.4444]
+10 - public feedback sought on indoor pool plan [Jaccard = 0.4444]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: peter ryan stands down as leader of victorian national party
+Top 10 similares:
+1 - peter ryan victorian national party leader [Jaccard = 0.7500]
+2 - deb frecklington stands down as lnp leader [Jaccard = 0.3333]
+3 - wa opposition leader stands down [Jaccard = 0.3333]
+4 - former victorian nationals leader peter ryan retires from polit [Jaccard = 0.3077]
+5 - victorian minister theophanous stands down [Jaccard = 0.3000]
+6 - springborg stands down as opposition leader [Jaccard = 0.3000]
+7 - national party leader confirms leadership [Jaccard = 0.3000]
+8 - act labor party secretary stands down [Jaccard = 0.3000]
+9 - carpenter stands down as wa labor leader [Jaccard = 0.3000]
+10 - putin to step down as party leader [Jaccard = 0.3000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: insurer to assess fire hit lake monjingup nature
+Top 10 similares:
+1 - lake monjingup fire audio [Jaccard = 0.4286]
+2 - wach lake monjingup fire [Jaccard = 0.4286]
+3 - lake clifton fire not deliberately lit [Jaccard = 0.2500]
+4 - rfs to assess fire fighting planes [Jaccard = 0.2500]
+5 - lake chitter fire finally out [Jaccard = 0.2500]
+6 - lake macquarie fire contained [Jaccard = 0.2500]
+7 - boat fire at lake eildon [Jaccard = 0.2500]
+8 - cfa probes sea lake house fire [Jaccard = 0.2500]
+9 - nature reserves to get fire plan [Jaccard = 0.2500]
+10 - fire threatens homes at lake macquarie [Jaccard = 0.2222]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: sa government considers crushing cars used to illegal dump waste
+Top 10 similares:
+1 - mount isa considers bid for radioactive waste dump [Jaccard = 0.3000]
+2 - illegal waste sites at kaniva dump [Jaccard = 0.3000]
+3 - waste dump panel chief considers impartiality [Jaccard = 0.2727]
+4 - epa investigates alleged illegal waste dump at spencer [Jaccard = 0.2727]
+5 - greens want government to dump waste secrecy [Jaccard = 0.2727]
+6 - date farmer considers nuclear waste dump [Jaccard = 0.2727]
+7 - epa drone footage of an illegal construction waste dump in sa [Jaccard = 0.2727]
+8 - inquiry considers suitability of waste dump panel [Jaccard = 0.2727]
+9 - waste dump [Jaccard = 0.2500]
+10 - federal government opens nominations for nuclear waste dump [Jaccard = 0.2500]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: clean energy sector angry at government change on ret
+Top 10 similares:
+1 - clean energy [Jaccard = 0.3333]
+2 - how social license and clean energy change mining 2030 [Jaccard = 0.3333]
+3 - change of government [Jaccard = 0.3333]
+4 - clean energy [Jaccard = 0.3333]
+5 - government accepts clean energy review recommendations [Jaccard = 0.3333]
+6 - why change government [Jaccard = 0.3333]
+7 - clean energy sector seeks more details amid ret [Jaccard = 0.3000]
+8 - clean energy project as risk as government plans to cut funding [Jaccard = 0.3000]
+9 - clean energy and the global fight against climate change [Jaccard = 0.3000]
+10 - government 'sabotages' thousands of solar energy sector jobs [Jaccard = 0.3000]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: the price of eggs to rise in samoa after us bird
+Top 10 similares:
+1 - mg price rise [Jaccard = 0.3333]
+2 - aust market hurting after oil price rise [Jaccard = 0.3333]
+3 - gas price rise [Jaccard = 0.3333]
+4 - samoa seeing rise in tourism numbers after ironing [Jaccard = 0.3000]
+5 - electricity price rise set for qld [Jaccard = 0.2857]
+6 - big price rise for spuds [Jaccard = 0.2857]
+7 - power price rise on the way [Jaccard = 0.2857]
+8 - milk price rise [Jaccard = 0.2857]
+9 - price of bread set to rise in tas [Jaccard = 0.2857]
+10 - water price set to rise [Jaccard = 0.2857]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: thousands of submissions back controversial hunter mine expansi
+Top 10 similares:
+1 - production scaled back at hunter mine [Jaccard = 0.3333]
+2 - controversial upper hunter mine extension approved [Jaccard = 0.3000]
+3 - decision on controversial hunter mine could be known within wee [Jaccard = 0.2727]
+4 - hunter valley community loses battle against controversial mine [Jaccard = 0.2500]
+5 - pac meeting on controversial mine [Jaccard = 0.2500]
+6 - controversial coal mine sale spooks hunter valley horse breeders [Jaccard = 0.2308]
+7 - gold mine back in action [Jaccard = 0.2222]
+8 - indigenous contractors back mine tax [Jaccard = 0.2222]
+9 - gold mine back in action [Jaccard = 0.2222]
+10 - mount isa mine back in action [Jaccard = 0.2222]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: kangaroos score upset win over swans in semi final
+Top 10 similares:
+1 - prince upset over kangaroos omissions [Jaccard = 0.3333]
+2 - jets score upset win over adelaide [Jaccard = 0.3333]
+3 - cats all over kangaroos in qualifying final [Jaccard = 0.3333]
+4 - swans snatch late win over kangaroos [Jaccard = 0.3333]
+5 - kangaroos upset swans hawthorn crash adelaide [Jaccard = 0.3000]
+6 - swans steamroll the kangaroos to reach afl grand final [Jaccard = 0.3000]
+7 - dragons score derby upset over tigers [Jaccard = 0.3000]
+8 - highlanders score 29 21 upset win over blues in super rugby [Jaccard = 0.2727]
+9 - brent tate recalled for kangaroos world cup semi final [Jaccard = 0.2727]
+10 - stosur's year over after semi final defeat [Jaccard = 0.2727]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: nsw storms damaging winds rip off roofs cut power
+Top 10 similares:
+1 - damaging winds cut power in perth [Jaccard = 0.5000]
+2 - storms bring damaging winds hail [Jaccard = 0.4286]
+3 - storms cut nw power [Jaccard = 0.4000]
+4 - damaging winds on the way [Jaccard = 0.4000]
+5 - storms cut power in se qld [Jaccard = 0.4000]
+6 - storms cut power across nsw [Jaccard = 0.3333]
+7 - storms hit power supplies [Jaccard = 0.3333]
+8 - savage winds cut power to 5000 [Jaccard = 0.3333]
+9 - storms cut power in tasmania [Jaccard = 0.3333]
+10 - se qld storms knock out power [Jaccard = 0.3333]
+Palavras Emergentes presentes nessas manchetes:
+  (nenhuma)
+
+Manchete Original: moody pleads not guilty to treating horse with cobalt
+Top 10 similares:
+1 - man 36 pleads guilty to sex with child [Jaccard = 0.3750]
+2 - couple pleads guilty to sex with 9yo son [Jaccard = 0.3750]
+3 - man pleads guilty to killing with axe [Jaccard = 0.3750]
+4 - teacher pleads guilty to sex with schoolgirl [Jaccard = 0.3333]
+5 - man pleads guilty to sex with underage girls [Jaccard = 0.3333]
+6 - heartbroken teacher pleads guilty to sex with [Jaccard = 0.3333]
+7 - teacher pleads not guilty to having sex with [Jaccard = 0.3333]
+8 - man with 160 cats pleads guilty to mistreatment [Jaccard = 0.3333]
+9 - sex worker pleads guilty to working with hiv [Jaccard = 0.3333]
+10 - horse trainer pleads guilty to stalking [Jaccard = 0.3333]
 Palavras Emergentes presentes nessas manchetes:
   (nenhuma)
 

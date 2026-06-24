@@ -8,21 +8,25 @@
 
 struct Similar {
     int lineNumber;
-    std::string texto;
     float jaccard;
+    std::string texto; // preenchido só no final, não durante o heap
+};
+
+struct ResultadoConsulta {
+    std::string textoOriginal;
+    std::vector<Similar> similares;
 };
 
 class Jaccard {
 public:
-    // Calcula o índice de Jaccard entre dois vetores de IDs ordenados
     static float calcular(const std::vector<uint32_t>& A,
                           const std::vector<uint32_t>& B);
 
-    // Recebe os tokens JÁ PROCESSADOS da manchete de consulta
-    // e busca as top 10 similares no CSV
-    std::vector<Similar> buscarSimilares(const std::string& caminhoCSV,
-                                         const std::vector<uint32_t>& tokensAlvo,
-                                         const std::string& textoAlvo,
-                                         Dicionario& dicionario,
-                                         Processador& processador);
+    // Processa TODAS as consultas em uma única leitura do CSV
+    std::vector<ResultadoConsulta> buscarTodas(
+        const std::string& caminhoCSV,
+        const std::vector<std::string>& consultas,
+        Dicionario& dicionario,
+        Processador& processador
+    );
 };

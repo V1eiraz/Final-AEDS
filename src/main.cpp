@@ -1,23 +1,20 @@
 #include "sistemaAnalise.hpp"
-
-#include <time.h>
+#include <ctime>
 #include <iostream>
 
-#include "dicionario.hpp"
-#include "processador.hpp"
-#include "janelas.hpp"
-#include "config.hpp"
-
-int main(){
-    clock_t inicio = clock();
+int main() {
+    struct timespec inicio, fim;
+    clock_gettime(CLOCK_MONOTONIC, &inicio);
 
     SistemaAnalise sistema;
     sistema.carregar("data/input.csv");
     sistema.analisar("data/input.dat", "data/output.dat");
-    
-    clock_t fim = clock();
-    double ms = (double)(fim - inicio) * 1000.0 / CLOCKS_PER_SEC;
-    std::cout << ms << " ms\n";
 
+    clock_gettime(CLOCK_MONOTONIC, &fim);
+
+    long ms = (fim.tv_sec  - inicio.tv_sec)  * 1000
+            + (fim.tv_nsec - inicio.tv_nsec) / 1000000;
+
+    std::cout << ms << " ms\n";
     return 0;
 }

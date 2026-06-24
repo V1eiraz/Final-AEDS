@@ -1,33 +1,28 @@
 #pragma once
-
-#include "config.hpp"
-#include <vector>
+#include <array>
 #include <cstdint>
+#include <vector>
+#include <unordered_map>
+#include <utility>
+#include "config.hpp"
 
-struct EntradaRanking {
+struct TermoEmergente {
     uint32_t id;
-    float freq;
+    float taxa;
 };
 
-class Janelas {
+class JanelasTemporais {
 public:
-    // Cada janela é um vetor de frequências indexado pelo ID da palavra
-    // janelas[2][42] = frequência do ID 42 na janela 2
-    std::vector<uint32_t> freq[TOTAL_JANELAS];
+    void reservar(uint32_t n);
 
-    // Registra os tokens de uma manchete na janela correta
-    void addManchete(int lineNumber, int totalLines,
-                       const std::vector<uint32_t>& tokens);
+    // Recebe o índice da manchete; calcula a janela internamente com TAMANHO_JANELA.
+    // Chamado durante a leitura do CSV — sem segunda passagem.
+    void registrar(uint32_t id_termo, uint32_t indice_manchete);
 
-    // Retorna a frequência de um ID em uma janela específica
-    uint32_t getFreq(int janela, uint32_t id) const;
+    std::vector<std::pair<uint32_t, uint32_t>> top_global(uint32_t n) const;
+    std::vector<TermoEmergente> top_emergentes(uint32_t n) const;
 
-    // Função que soma a frquencia das 5 janelas para um ID
-    uint32_t freqGlobal(uint32_t id) const;
-
-    // Top 100 por frequencia total - usando o heap min O(n log k)
-    std::vector<EntradaRanking> rankingGlobal(uint32_t totalPalavras) const; 
-
-    // Top 100 por C(p)
-    std::vector<EntradaRanking> rankingEmergentes(uint32_t totalPalavras, uint32_t minFreq = 5) const;
+private:
+    std::array<std::unordered_map<uint32_t, uint32_t>, TOTAL_JANELAS> janelas;
+    std::unordered_map<uint32_t, uint32_t> global;
 };

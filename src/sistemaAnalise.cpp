@@ -34,25 +34,6 @@ void SistemaAnalise::analisar(const std::string& arquivo_entrada,
     auto emergentes = janelas.rankingEmergentes(dicionario.tamanho());
     auto global     = janelas.rankingGlobal(dicionario.tamanho());
 
-    // Escreve Top-100 frequentes
-    saida << "=== TOP 100 PALAVRAS MAIS FREQUENTES ===\n";
-    for (int i = 0; i < (int)global.size(); i++) {
-        saida << (i + 1) << " - "
-              << dicionario.obterTermo(global[i].id)
-              << " [freq = " << (uint32_t)global[i].freq << "]\n";
-    }
-
-    // Escreve Top-100 emergentes
-    saida << "\n=== TOP 100 PALAVRAS EMERGENTES ===\n";
-    for (int i = 0; i < (int)emergentes.size(); i++) {
-        saida << (i + 1) << " - "
-              << dicionario.obterTermo(emergentes[i].id)
-              << " [C(p) = " << std::fixed << std::setprecision(4)
-              << emergentes[i].freq << "]\n";
-    }
-
-    saida << "\n=== CONSULTAS ===\n\n";
-
     // Lê todas as consultas do input.dat de uma vez
     std::vector<std::string> consultas;
     Arquivo::ler_consultas(arquivo_entrada, [&](const std::string& linha) {

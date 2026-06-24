@@ -1,5 +1,5 @@
 CXX      := g++
-CXXFLAGS := -Wall -Wextra -Werror -std=c++20 -O3 -march=x86-64-v2 -flto=auto -fomit-frame-pointer -funroll-loops -DNDEBUG -pipe
+CXXFLAGS := -Wall -Wextra -Werror -std=c++20 -O3 -flto=auto -fomit-frame-pointer -funroll-loops -DNDEBUG -pipe
 LDFLAGS  := -lm                 
 BUILD    := ./build
 OBJ_DIR  := $(BUILD)/objects

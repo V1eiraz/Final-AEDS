@@ -10,12 +10,10 @@ void SistemaAnalise::carregar(const std::string& arquivo_csv) {
     caminhoCSV = arquivo_csv;
     dicionario.reservar(CAPACIDADE_DICIONARIO);
 
-    // Primeira passada: contar linhas
     Arquivo::ler_csv(arquivo_csv, [&](std::string&&) {
         totalLinhas++;
     });
 
-    // Segunda passada: processar e popular janelas
     int n = 0;
     std::vector<uint32_t> tokens;
 
@@ -29,74 +27,58 @@ void SistemaAnalise::carregar(const std::string& arquivo_csv) {
 
 void SistemaAnalise::analisar(const std::string& arquivo_entrada,
                                const std::string& arquivo_saida) {
-    auto saida = Arquivo::abrir_escrita(arquivo_saida);
+    auto saida = Arquivo::abrir_escrita_bufferizada(arquivo_saida);
     Jaccard jaccard;
 
-    // Calcula rankings uma vez só
+    // Rankings calculados uma vez só
     auto emergentes = janelas.rankingEmergentes(dicionario.tamanho());
     auto global     = janelas.rankingGlobal(dicionario.tamanho());
 
-    // Escreve Top-100 global no topo do output
-    saida << "=== TOP 100 PALAVRAS MAIS FREQUENTES ===\n";
-    for (int i = 0; i < (int)global.size(); i++) {
-        saida << (i + 1) << " - "
-              << dicionario.obterTermo(global[i].id)
-              << " [freq = " << (uint32_t)global[i].freq << "]\n";
-    }
+    // Lê todas as consultas do input.dat de uma vez
+    std::vector<std::string> consultas;
+    Arquivo::ler_consultas(arquivo_entrada, [&](const std::string& linha) {
+        consultas.push_back(linha);
+    });
 
-    // Escreve Top-100 emergentes no topo do output
-    saida << "\n=== TOP 100 PALAVRAS EMERGENTES ===\n";
-    for (int i = 0; i < (int)emergentes.size(); i++) {
-        saida << (i + 1) << " - "
-              << dicionario.obterTermo(emergentes[i].id)
-              << " [C(p) = " << std::fixed << std::setprecision(4)
-              << emergentes[i].freq << "]\n";
-    }
+    // UMA única leitura do CSV para todas as consultas
+    auto resultados = jaccard.buscarTodas(
+        caminhoCSV, consultas, dicionario, processador
+    );
 
-    saida << "\n=== CONSULTAS ===\n\n";
+    // vector<bool> reutilizável para cruzamento com emergentes
+    std::vector<bool> marcado(dicionario.tamanho(), false);
+    std::vector<uint32_t> marcados; // rastreia quais foram marcados para limpar
+    std::vector<uint32_t> tokensSimilar;
 
-    // Monta set de IDs emergentes para cruzamento O(1)
-    std::unordered_set<uint32_t> idsEmergentes;
-    for (auto& e : emergentes) idsEmergentes.insert(e.id);
-
-    std::vector<uint32_t> tokensConsulta;
-
-    Arquivo::ler_consultas(arquivo_entrada, [&](const std::string& consulta) {
-        tokensConsulta.clear();
-        processador.processar(consulta, dicionario, tokensConsulta);
-
-        // Busca top 10 similares
-        auto similares = jaccard.buscarSimilares(
-            caminhoCSV, tokensConsulta, consulta, dicionario, processador
-        );
-
-        // Escreve manchete consultada
-        saida << "Manchete Original: " << consulta << "\n";
-
-        // Escreve top 10 similares
+    for (auto& r : resultados) {
+        saida << "Manchete Original: " << r.textoOriginal << "\n";
         saida << "Top 10 similares:\n";
-        for (int i = 0; i < (int)similares.size(); i++) {
+
+        for (int i = 0; i < (int)r.similares.size(); i++) {
             saida << (i + 1) << " - "
-                  << similares[i].texto
+                  << r.similares[i].texto
                   << " [Jaccard = " << std::fixed << std::setprecision(4)
-                  << similares[i].jaccard << "]\n";
+                  << r.similares[i].jaccard << "]\n";
         }
 
-        // Coleta palavras de todas as manchetes similares
-        std::unordered_set<uint32_t> palavrasSimilares;
-        std::vector<uint32_t> tokensSimilar;
-
-        for (auto& s : similares) {
+        // Marca palavras das similares usando vector<bool>
+        marcados.clear();
+        for (auto& s : r.similares) {
             tokensSimilar.clear();
             processador.processar(s.texto, dicionario, tokensSimilar);
-            for (uint32_t id : tokensSimilar) palavrasSimilares.insert(id);
+            for (uint32_t id : tokensSimilar) {
+                if (!marcado[id]) {
+                    marcado[id] = true;
+                    marcados.push_back(id);
+                }
+            }
         }
 
-        // Cruza com emergentes — mantém ordem do ranking global
+        // Cruza com emergentes
         saida << "Palavras Emergentes presentes nessas manchetes:\n";
         int count = 0;
         for (auto& e : emergentes) {
-            if (palavrasSimilares.count(e.id)) {
+            if (marcado[e.id]) {
                 saida << "  " << dicionario.obterTermo(e.id)
                       << " [C(p) = " << std::fixed << std::setprecision(4)
                       << e.freq << "]\n";
@@ -106,5 +88,8 @@ void SistemaAnalise::analisar(const std::string& arquivo_entrada,
 
         if (count == 0) saida << "  (nenhuma)\n";
         saida << "\n";
-    });
+
+        // Limpa só os IDs que foram marcados (não o vetor inteiro)
+        for (uint32_t id : marcados) marcado[id] = false;
+    }
 }

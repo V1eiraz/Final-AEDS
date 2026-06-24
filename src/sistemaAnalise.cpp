@@ -27,7 +27,7 @@ void SistemaAnalise::carregar(const std::string& arquivo_csv) {
 
 void SistemaAnalise::analisar(const std::string& arquivo_entrada,
                                const std::string& arquivo_saida) {
-    auto saida = Arquivo::abrir_escrita(arquivo_saida);
+    auto saida = Arquivo::abrir_escrita_bufferizada(arquivo_saida);
     Jaccard jaccard;
 
     // Rankings calculados uma vez só

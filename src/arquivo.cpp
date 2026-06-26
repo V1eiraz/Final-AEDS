@@ -1,24 +1,59 @@
 #include "arquivo.hpp"
 #include "config.hpp"
 
-namespace Arquivo {
+#include <cstdint>
 
-    std::ifstream abrir_leitura(const std::string& caminho) {
-        std::ifstream f(caminho);
-        if (!f.is_open()) std::cerr << "Erro: não foi possível abrir " << caminho << '\n';
+namespace Arquivo{
+    std::ifstream abrir_leitura(const std::string& caminho){
+        std::ifstream f(caminho, std::ios::binary);
+        if(!f.is_open()) std::cerr << "Erro: não foi possível abrir " << caminho << '\n';
+
         return f;
     }
 
     std::ofstream abrir_escrita(const std::string& caminho) {
         std::ofstream f(caminho);
-        if (!f.is_open()) std::cerr << "Erro: não foi possivel abrir " << caminho << '\n';
+        if(!f.is_open()) std::cerr << "Erro: não foi possível abrir " << caminho << '\n';
+
         return f;
     }
 
-    void ler_csv(const std::string& caminho,
-                 const std::function<void(std::string&&)>& processar) {
-        auto arquivo = abrir_leitura(caminho);
-        if (!arquivo.is_open()) return;
+    void ler_csv(const std::string& caminho, const std::function<void(std::string_view, uint64_t, uint32_t)>& processar){
+        std::ifstream arquivo(caminho, std::ios::binary);
+        if(!arquivo.is_open()){
+            std::cerr << "Erro: não foi possível abrir " << caminho << '\n';
+            return;
+        }
+
+        std::string linha;
+        std::getline(arquivo, linha);
+
+        while(true){
+            const uint64_t pos_linha = static_cast<uint64_t>(arquivo.tellg());
+
+            if(!std::getline(arquivo, linha)) break;
+            if(!linha.empty() && linha.back() == '\r') linha.pop_back();
+
+            const auto pos_virgula = linha.find(',');
+            if(pos_virgula == std::string::npos){
+                processar({}, 0, 0);
+                continue;
+            }
+
+            const uint64_t offset  = pos_linha + pos_virgula + 1;
+            const uint32_t tamanho = static_cast<uint32_t>(linha.size() - pos_virgula - 1);
+
+            processar(std::string_view(linha.data() + pos_virgula + 1, tamanho), offset, tamanho);
+        }
+    }
+
+    void ler_consultas(const std::string& caminho, const std::function<void(const std::string&)>& processar) {
+        std::ifstream arquivo(caminho, std::ios::binary);
+
+        if(!arquivo.is_open()){
+            std::cerr << "Erro: nao foi possivel abrir " << caminho << '\n';
+            return;
+        }
 
         // Otimização 3: buffer de I/O de 1MB — reduz chamadas ao kernel
         static std::vector<char> bufIO(TAMANHO_BUFFER_IO);

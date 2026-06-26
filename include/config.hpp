@@ -1,4 +1,5 @@
 #pragma once
+
 #include <cstdint>
 
 inline constexpr float LIMIAR_JACCARD = 0.0f;

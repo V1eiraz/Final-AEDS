@@ -1,6 +1,6 @@
 CXX      := g++
 CXXFLAGS := -Wall -Wextra -Werror -std=c++20 -O3 -flto=auto -fomit-frame-pointer -funroll-loops -DNDEBUG -pipe
-LDFLAGS  := -lm                 
+LDFLAGS  := -lm -pthread                 
 BUILD    := ./build
 OBJ_DIR  := $(BUILD)/objects
 APP_DIR  := $(BUILD)/

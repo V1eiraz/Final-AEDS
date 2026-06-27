@@ -4,16 +4,15 @@
 
 void IndiceInvertido::inserir(uint32_t indice, std::span<const uint32_t> tokens){
     tamanhos.push_back(static_cast<uint32_t>(tokens.size()));
+
     for(const uint32_t token : tokens) postagens[token].push_back(indice);
 }
 
 void IndiceInvertido::finalizar(uint32_t total){
-    total_manchetes_ = total;
-    contagem_plana.assign(total, 0u);
-    tocados.reserve(4096);
+    total_ = total;
 }
 
-std::vector<Resultado> IndiceInvertido::buscar(std::span<const uint32_t> consulta, float limiar, uint32_t quantidade) const{
+std::vector<Resultado> IndiceInvertido::buscar(std::span<const uint32_t> consulta, float limiar, uint32_t quantidade, BufferBusca& buf) const{
     if(consulta.empty()) return {};
 
     std::vector<uint32_t> consulta_ord(consulta.begin(), consulta.end());
@@ -31,8 +30,8 @@ std::vector<Resultado> IndiceInvertido::buscar(std::span<const uint32_t> consult
         if(it == postagens.end() || it->second.size() > LIMITE_POSTAGENS_TOKEN) continue;
 
         for(const uint32_t idx : it->second){
-            if(!contagem_plana[idx]) tocados.push_back(idx);
-            ++contagem_plana[idx];
+            if(!buf.contagem_plana[idx]) buf.tocados.push_back(idx);
+            ++buf.contagem_plana[idx];
         }
     }
 
@@ -43,12 +42,11 @@ std::vector<Resultado> IndiceInvertido::buscar(std::span<const uint32_t> consult
     std::vector<Par> heap;
     heap.reserve(quantidade + 1);
 
-    for(const uint32_t idx : tocados){
-        const uint32_t inter = contagem_plana[idx];
-        contagem_plana[idx] = 0;
+    for(const uint32_t idx : buf.tocados){
+        const uint32_t inter = buf.contagem_plana[idx];
+        buf.contagem_plana[idx] = 0;
 
         const uint32_t tam_m = tamanhos[idx];
-
         if(tam_m == 0) continue;
         if(tam_m == tam_q && inter == tam_q) continue;
 
@@ -57,21 +55,21 @@ std::vector<Resultado> IndiceInvertido::buscar(std::span<const uint32_t> consult
 
         if(limiar > 0.0f && j < limiar) continue;
 
-        heap.push_back({j, idx});
+        heap.emplace_back(j, idx);
         std::push_heap(heap.begin(), heap.end(), cmp_min);
+
         if(heap.size() > quantidade){
             std::pop_heap(heap.begin(), heap.end(), cmp_min);
             heap.pop_back();
         }
     }
-    tocados.clear();
+    buf.tocados.clear();
 
     std::sort_heap(heap.begin(), heap.end(), cmp_min);
 
     std::vector<Resultado> resultados;
     resultados.reserve(heap.size());
-
     for(auto& [sim, idx] : heap) resultados.push_back({idx, sim});
-
+    
     return resultados;
 }

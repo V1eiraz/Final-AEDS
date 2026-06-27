@@ -11,8 +11,9 @@ int main(){
     sistema.analisar("data/input.dat", "data/output.dat");
 
     auto fim = std::chrono::high_resolution_clock::now();
-    auto ms = std::chrono::duration_cast<std::chrono::milliseconds>(fim - inicio).count();
 
-    std::cout << ms << " ms\n";
+    double ms = std::chrono::duration<double, std::milli>(fim - inicio).count();
+
+    std::cout << std::fixed << std::setprecision(3) << ms << " ms\n";
     return 0;
 }

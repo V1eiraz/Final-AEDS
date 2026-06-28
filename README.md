@@ -1,7 +1,7 @@
 # 📚 Trabalho Prático Final - Algoritmos e Estruturas de Dados I
 
 ![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)
-![Linguagem](https://img.shields.io/badge/Linguagem-C++%2F%20C%2B%2B-blue?style=for-the-badge&logo=cpp)
+![Linguagem](https://img.shields.io/badge/Linguagem-C++%2F%20C%2B%2B-blue?style=for-the-badge)
 ![Instituição](https://img.shields.io/badge/Instituição-CEFET--MG-red?style=for-the-badge)
 
 ---

@@ -29,7 +29,7 @@ Certifique-se de ter os compiladores (`gcc` / `g++`) e a ferramenta `make` devid
 
 **1. Clone este repositório:**
 ```bash
-git clone [https://github.com/V1eiraz/Final-AEDS.git](https://github.com/V1eiraz/Final-AEDS.git)
+git clone git@github.com:V1eiraz/Final-AEDS.git
 ```
 
 **2. Acesse a pasta raiz do projeto:**

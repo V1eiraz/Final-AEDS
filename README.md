@@ -1,7 +1,7 @@
 # 📚 Trabalho Prático Final - Algoritmos e Estruturas de Dados I
 
 ![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)
-![Linguagem](https://img.shields.io/badge/Linguagem-C%2F%20C%2B%2B-blue?style=for-the-badge&logo=c)
+![Linguagem](https://img.shields.io/badge/Linguagem-C++%2F%20C%2B%2B-blue?style=for-the-badge&logo=cpp)
 ![Instituição](https://img.shields.io/badge/Instituição-CEFET--MG-red?style=for-the-badge)
 
 ---
@@ -10,7 +10,7 @@
 
 Este repositório contém a implementação do trabalho final da disciplina de **Algoritmos e Estruturas de Dados I (AEDS I)** do CEFET-MG. 
 
-O objetivo principal deste projeto é aplicar os conceitos teóricos de indexação e organização de dados estruturando soluções em C/C++. O código implementa e analisa o comportamento de Tabelas de Dispersão (Hash), Heaps e métodos clássicos de ordenação, avaliando suas complexidades e eficiências computacionais na prática.
+O objetivo principal deste projeto é aplicar os conceitos teóricos de indexação e organização de dados estruturando soluções em C++. O código implementa e analisa o comportamento de Tabelas de Dispersão (Hash), Heaps e métodos clássicos de ordenação, avaliando suas complexidades e eficiências computacionais na prática.
 
 **Autores:**
 * Davi Enzo Vieira
